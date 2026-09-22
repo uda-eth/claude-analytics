@@ -3,252 +3,302 @@
     "2025-12-27": {
       "messages": 754,
       "sessions": 12,
-      "toolCalls": 181
+      "toolCalls": 181,
+      "tokensByModel": {}
     },
     "2025-12-28": {
       "messages": 136,
       "sessions": 1,
-      "toolCalls": 36
+      "toolCalls": 36,
+      "tokensByModel": {}
     },
     "2025-12-29": {
       "messages": 2422,
       "sessions": 1,
-      "toolCalls": 664
+      "toolCalls": 664,
+      "tokensByModel": {}
     },
     "2025-12-31": {
       "messages": 947,
       "sessions": 1,
-      "toolCalls": 281
+      "toolCalls": 281,
+      "tokensByModel": {}
     },
     "2026-01-02": {
       "messages": 366,
       "sessions": 2,
-      "toolCalls": 99
+      "toolCalls": 99,
+      "tokensByModel": {}
     },
     "2026-01-03": {
       "messages": 3781,
       "sessions": 1,
-      "toolCalls": 1094
+      "toolCalls": 1094,
+      "tokensByModel": {}
     },
     "2026-01-06": {
       "messages": 562,
       "sessions": 4,
-      "toolCalls": 158
+      "toolCalls": 158,
+      "tokensByModel": {}
     },
     "2026-01-07": {
       "messages": 7139,
       "sessions": 5,
-      "toolCalls": 2005
+      "toolCalls": 2005,
+      "tokensByModel": {}
     },
     "2026-01-09": {
       "messages": 421,
       "sessions": 2,
-      "toolCalls": 112
+      "toolCalls": 112,
+      "tokensByModel": {}
     },
     "2026-01-12": {
       "messages": 750,
       "sessions": 5,
-      "toolCalls": 209
+      "toolCalls": 209,
+      "tokensByModel": {}
     },
     "2026-01-13": {
       "messages": 1983,
       "sessions": 3,
-      "toolCalls": 563
+      "toolCalls": 563,
+      "tokensByModel": {}
     },
     "2026-01-15": {
       "messages": 318,
       "sessions": 1,
-      "toolCalls": 66
+      "toolCalls": 66,
+      "tokensByModel": {}
     },
     "2026-01-19": {
       "messages": 438,
       "sessions": 3,
-      "toolCalls": 144
+      "toolCalls": 144,
+      "tokensByModel": {}
     },
     "2026-01-20": {
       "messages": 603,
       "sessions": 1,
-      "toolCalls": 163
+      "toolCalls": 163,
+      "tokensByModel": {}
     },
     "2026-01-21": {
       "messages": 454,
       "sessions": 6,
-      "toolCalls": 124
+      "toolCalls": 124,
+      "tokensByModel": {}
     },
     "2026-01-22": {
       "messages": 1086,
       "sessions": 5,
-      "toolCalls": 336
+      "toolCalls": 336,
+      "tokensByModel": {}
     },
     "2026-01-25": {
       "messages": 543,
       "sessions": 8,
-      "toolCalls": 146
+      "toolCalls": 146,
+      "tokensByModel": {}
     },
     "2026-01-26": {
       "messages": 5740,
       "sessions": 19,
-      "toolCalls": 1621
+      "toolCalls": 1621,
+      "tokensByModel": {}
     },
     "2026-01-27": {
       "messages": 4596,
       "sessions": 4,
-      "toolCalls": 1296
+      "toolCalls": 1296,
+      "tokensByModel": {}
     },
     "2026-01-28": {
       "messages": 695,
       "sessions": 2,
-      "toolCalls": 181
+      "toolCalls": 181,
+      "tokensByModel": {}
     },
     "2026-01-29": {
       "messages": 3198,
       "sessions": 4,
-      "toolCalls": 1128
+      "toolCalls": 1128,
+      "tokensByModel": {}
     },
     "2026-01-30": {
       "messages": 429,
       "sessions": 4,
-      "toolCalls": 146
+      "toolCalls": 146,
+      "tokensByModel": {}
     },
     "2026-01-31": {
       "messages": 22,
       "sessions": 1,
-      "toolCalls": 3
+      "toolCalls": 3,
+      "tokensByModel": {}
     },
     "2026-02-01": {
       "messages": 163,
       "sessions": 2,
-      "toolCalls": 59
+      "toolCalls": 59,
+      "tokensByModel": {}
     },
     "2026-02-03": {
       "messages": 668,
       "sessions": 3,
-      "toolCalls": 192
+      "toolCalls": 192,
+      "tokensByModel": {}
     },
     "2026-02-04": {
       "messages": 75,
       "sessions": 1,
-      "toolCalls": 20
+      "toolCalls": 20,
+      "tokensByModel": {}
     },
     "2026-02-05": {
       "messages": 5603,
       "sessions": 7,
-      "toolCalls": 1642
+      "toolCalls": 1642,
+      "tokensByModel": {}
     },
     "2026-02-08": {
       "messages": 60,
       "sessions": 2,
-      "toolCalls": 11
+      "toolCalls": 11,
+      "tokensByModel": {}
     },
     "2026-02-09": {
       "messages": 119,
       "sessions": 2,
-      "toolCalls": 15
+      "toolCalls": 15,
+      "tokensByModel": {}
     },
     "2026-02-10": {
       "messages": 2755,
       "sessions": 5,
-      "toolCalls": 816
+      "toolCalls": 816,
+      "tokensByModel": {}
     },
     "2026-02-11": {
       "messages": 3,
       "sessions": 1,
-      "toolCalls": 0
+      "toolCalls": 0,
+      "tokensByModel": {}
     },
     "2026-02-12": {
       "messages": 2115,
       "sessions": 1,
-      "toolCalls": 621
+      "toolCalls": 621,
+      "tokensByModel": {}
     },
     "2026-02-14": {
       "messages": 39,
       "sessions": 1,
-      "toolCalls": 7
+      "toolCalls": 7,
+      "tokensByModel": {}
     },
     "2026-02-15": {
       "messages": 1670,
       "sessions": 7,
-      "toolCalls": 453
+      "toolCalls": 453,
+      "tokensByModel": {}
     },
     "2026-02-16": {
       "messages": 1605,
       "sessions": 1,
-      "toolCalls": 451
+      "toolCalls": 451,
+      "tokensByModel": {}
     },
     "2026-02-17": {
       "messages": 367,
       "sessions": 4,
-      "toolCalls": 94
+      "toolCalls": 94,
+      "tokensByModel": {}
     },
     "2026-02-18": {
       "messages": 806,
       "sessions": 1,
-      "toolCalls": 225
+      "toolCalls": 225,
+      "tokensByModel": {}
     },
     "2026-02-20": {
       "messages": 3190,
       "sessions": 3,
-      "toolCalls": 855
+      "toolCalls": 855,
+      "tokensByModel": {}
     },
     "2026-02-22": {
       "messages": 1065,
       "sessions": 2,
-      "toolCalls": 281
+      "toolCalls": 281,
+      "tokensByModel": {}
     },
     "2026-02-23": {
       "messages": 803,
       "sessions": 1,
-      "toolCalls": 202
+      "toolCalls": 202,
+      "tokensByModel": {}
     },
     "2026-02-24": {
       "messages": 891,
       "sessions": 1,
-      "toolCalls": 240
+      "toolCalls": 240,
+      "tokensByModel": {}
     },
     "2026-02-28": {
       "messages": 950,
       "sessions": 2,
-      "toolCalls": 268
+      "toolCalls": 268,
+      "tokensByModel": {}
     },
     "2026-03-01": {
       "messages": 885,
       "sessions": 1,
-      "toolCalls": 255
+      "toolCalls": 255,
+      "tokensByModel": {}
     },
     "2026-03-02": {
       "messages": 71,
       "sessions": 1,
-      "toolCalls": 15
+      "toolCalls": 15,
+      "tokensByModel": {}
     },
     "2026-03-03": {
       "messages": 541,
       "sessions": 1,
-      "toolCalls": 168
+      "toolCalls": 168,
+      "tokensByModel": {}
     },
     "2026-03-06": {
       "messages": 490,
       "sessions": 2,
-      "toolCalls": 139
+      "toolCalls": 139,
+      "tokensByModel": {}
     },
     "2026-03-09": {
       "messages": 702,
       "sessions": 1,
-      "toolCalls": 196
+      "toolCalls": 196,
+      "tokensByModel": {}
     },
     "2026-03-10": {
       "messages": 290,
       "sessions": 1,
-      "toolCalls": 94
+      "toolCalls": 94,
+      "tokensByModel": {}
     },
     "2026-03-11": {
       "messages": 296,
       "sessions": 3,
-      "toolCalls": 85
+      "toolCalls": 85,
+      "tokensByModel": {}
     },
     "2026-03-12": {
       "messages": 36,
       "sessions": 1,
-      "toolCalls": 5
+      "toolCalls": 5,
+      "tokensByModel": {}
     },
     "2026-07-23": {
       "messages": 95,
@@ -256,6 +306,14 @@
       "toolCalls": 31,
       "tokensByModel": {
         "claude-sonnet-4-6": 2447872
+      }
+    },
+    "2026-08-07": {
+      "messages": 48,
+      "sessions": 3,
+      "toolCalls": 28,
+      "tokensByModel": {
+        "claude-opus-4-8": 1667464
       }
     },
     "2026-08-08": {
@@ -268,13 +326,14 @@
     },
     "2026-08-09": {
       "messages": 12,
-      "sessions": 0,
-      "toolCalls": 0
+      "sessions": 3,
+      "toolCalls": 0,
+      "tokensByModel": {}
     },
     "2026-08-20": {
       "messages": 1028,
-      "sessions": 21,
-      "toolCalls": 260,
+      "sessions": 39,
+      "toolCalls": 427,
       "tokensByModel": {
         "claude-opus-5": 45080146
       }
@@ -288,12 +347,13 @@
       }
     },
     "2026-08-22": {
-      "messages": 3121,
-      "sessions": 13,
-      "toolCalls": 681,
+      "messages": 3625,
+      "sessions": 20,
+      "toolCalls": 2001,
       "tokensByModel": {
         "claude-opus-5": 363532737,
-        "claude-fable-5": 35712298
+        "claude-fable-5": 35712298,
+        "<synthetic>": 0
       }
     },
     "2026-08-23": {
@@ -301,15 +361,17 @@
       "sessions": 7,
       "toolCalls": 89,
       "tokensByModel": {
-        "claude-opus-5": 68043356
+        "claude-opus-5": 68043356,
+        "<synthetic>": 0
       }
     },
     "2026-08-25": {
-      "messages": 280,
-      "sessions": 4,
-      "toolCalls": 61,
+      "messages": 700,
+      "sessions": 27,
+      "toolCalls": 344,
       "tokensByModel": {
-        "claude-opus-5": 12739988
+        "claude-opus-5": 30315507,
+        "claude-fable-5": 1453574
       }
     },
     "2026-08-26": {
@@ -318,7 +380,7 @@
       "toolCalls": 945,
       "tokensByModel": {
         "claude-opus-5": 188219556,
-        "claude-fable-5": 3109193
+        "claude-fable-5": 16535739
       }
     },
     "2026-08-27": {
@@ -327,7 +389,8 @@
       "toolCalls": 860,
       "tokensByModel": {
         "claude-opus-5": 161250486,
-        "claude-fable-5": 39786723
+        "claude-fable-5": 39786723,
+        "<synthetic>": 0
       }
     },
     "2026-08-28": {
@@ -337,6 +400,14 @@
       "tokensByModel": {
         "claude-opus-5": 13653642,
         "claude-fable-5": 31586566
+      }
+    },
+    "2026-08-29": {
+      "messages": 79,
+      "sessions": 1,
+      "toolCalls": 39,
+      "tokensByModel": {
+        "claude-fable-5": 10199994
       }
     },
     "2026-08-30": {
@@ -349,8 +420,8 @@
     },
     "2026-08-31": {
       "messages": 1784,
-      "sessions": 10,
-      "toolCalls": 427,
+      "sessions": 14,
+      "toolCalls": 536,
       "tokensByModel": {
         "claude-opus-5": 82284070,
         "claude-fable-5": 44682352
@@ -358,8 +429,8 @@
     },
     "2026-09-01": {
       "messages": 1336,
-      "sessions": 10,
-      "toolCalls": 280,
+      "sessions": 26,
+      "toolCalls": 429,
       "tokensByModel": {
         "claude-opus-5": 54582785,
         "claude-fable-5": 46187608
@@ -370,7 +441,16 @@
       "sessions": 37,
       "toolCalls": 445,
       "tokensByModel": {
-        "claude-opus-5": 87787718
+        "claude-opus-5": 87787718,
+        "<synthetic>": 0
+      }
+    },
+    "2026-09-05": {
+      "messages": 214,
+      "sessions": 3,
+      "toolCalls": 104,
+      "tokensByModel": {
+        "claude-fable-5-1": 17334950
       }
     },
     "2026-09-06": {
@@ -378,34 +458,38 @@
       "sessions": 4,
       "toolCalls": 489,
       "tokensByModel": {
-        "claude-fable-5-1": 417428613
+        "claude-fable-5-1": 417428613,
+        "<synthetic>": 0
       }
     },
     "2026-09-07": {
       "messages": 484,
-      "sessions": 1,
+      "sessions": 2,
       "toolCalls": 93,
       "tokensByModel": {
         "claude-fable-5-1": 119208102
       }
     },
     "2026-09-16": {
-      "messages": 394,
+      "messages": 3204,
       "sessions": 2,
-      "toolCalls": 66,
+      "toolCalls": 1686,
       "tokensByModel": {
-        "claude-fable-5-1": 11506676
+        "claude-fable-5-1": 101987417,
+        "claude-opus-4-8": 891866,
+        "<synthetic>": 0
       }
     },
     "2026-09-17": {
       "messages": 3,
       "sessions": 0,
-      "toolCalls": 0
+      "toolCalls": 0,
+      "tokensByModel": {}
     },
     "2026-09-19": {
       "messages": 470,
       "sessions": 3,
-      "toolCalls": 185,
+      "toolCalls": 190,
       "tokensByModel": {
         "claude-fable-5-1": 22891092,
         "claude-opus-5": 2776151
@@ -413,8 +497,8 @@
     },
     "2026-09-20": {
       "messages": 3012,
-      "sessions": 87,
-      "toolCalls": 594,
+      "sessions": 103,
+      "toolCalls": 742,
       "tokensByModel": {
         "claude-fable-5-1": 124306217,
         "claude-haiku-4-5-20251001": 3946539
@@ -425,7 +509,17 @@
       "sessions": 31,
       "toolCalls": 407,
       "tokensByModel": {
-        "claude-fable-5-1": 171448922
+        "claude-fable-5-1": 171448922,
+        "<synthetic>": 0
+      }
+    },
+    "2026-09-22": {
+      "messages": 305,
+      "sessions": 5,
+      "toolCalls": 139,
+      "tokensByModel": {
+        "claude-fable-5-1": 28949580,
+        "claude-haiku-4-5-20251001": 28703
       }
     }
   },
@@ -467,7 +561,7 @@
       "cacheCreationInputTokens": 371312
     },
     "claude-fable-5-1": {
-      "inputTokens": 9653,
+      "inputTokens": 44306,
       "outputTokens": 3674114,
       "cacheReadInputTokens": 829559615,
       "cacheCreationInputTokens": 33546240
@@ -480,38 +574,38 @@
     }
   },
   "hourCounts": {
-    "0": 16,
-    "1": 22,
-    "2": 10,
-    "3": 10,
-    "4": 14,
-    "5": 9,
-    "6": 10,
-    "7": 11,
-    "8": 19,
-    "9": 18,
-    "10": 8,
-    "11": 21,
-    "12": 65,
-    "13": 56,
-    "14": 31,
-    "15": 32,
-    "16": 26,
-    "17": 33,
-    "18": 34,
-    "19": 27,
-    "20": 30,
-    "21": 32,
-    "22": 23,
-    "23": 20
+    "8": 83,
+    "3": 137,
+    "4": 132,
+    "21": 348,
+    "12": 347,
+    "23": 272,
+    "17": 1504,
+    "9": 432,
+    "6": 164,
+    "7": 146,
+    "10": 395,
+    "20": 336,
+    "16": 1553,
+    "19": 298,
+    "18": 493,
+    "2": 951,
+    "14": 664,
+    "5": 204,
+    "1": 524,
+    "0": 237,
+    "15": 385,
+    "22": 264,
+    "13": 857,
+    "11": 131
   },
   "totalSessions": 577,
   "totalMessages": 95324,
   "longestSession": {
-    "duration": 335968588,
-    "messageCount": 1722,
-    "timestamp": "2026-08-22T02:41:15.888Z"
+    "duration": 135539844,
+    "messageCount": 1358,
+    "timestamp": "2026-09-06T04:51:13.913Z"
   },
   "account": "personal",
-  "updatedAt": "2026-09-22T08:01:42+00:00"
+  "updatedAt": "2026-09-22T08:04:52+00:00"
 }
