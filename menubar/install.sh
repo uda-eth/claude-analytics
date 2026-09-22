@@ -33,6 +33,10 @@ cat > "$APP/Contents/Info.plist" <<EOF
 </plist>
 EOF
 codesign --force --sign - "$APP" >/dev/null
+# Pin the item near the right edge (points from the right) so a crowded menu bar
+# pushes other icons under the notch instead of this one. Cmd-drag overrides it.
+defaults read "$LABEL" "NSStatusItem Preferred Position StreakBar" >/dev/null 2>&1 ||
+  defaults write "$LABEL" "NSStatusItem Preferred Position StreakBar" -float 600
 
 cat > "$PLIST" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -42,9 +46,10 @@ cat > "$PLIST" <<EOF
   <key>Label</key><string>$LABEL</string>
   <key>ProgramArguments</key><array><string>$APP/Contents/MacOS/StreakBar</string></array>
   <key>RunAtLoad</key><true/>
+  <key>StandardErrorPath</key><string>$HOME/Library/Logs/streakbar.log</string>
   <key>KeepAlive</key><dict><key>SuccessfulExit</key><false/></dict>
 </dict>
 </plist>
 EOF
 launchctl bootstrap "gui/$(id -u)" "$PLIST"
-echo "installed StreakBar (starts at login). Cmd-drag it next to Claude Usage in the menu bar."
+echo "installed StreakBar (starts at login). Log: ~/Library/Logs/streakbar.log"

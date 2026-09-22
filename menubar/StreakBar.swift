@@ -62,6 +62,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         item.autosaveName = "StreakBar"
         render(nil)
         refresh()
+        // Log where macOS placed the item; a notch-covered item reports occluded.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [item] in
+            let w = item.button?.window
+            FileHandle.standardError.write("item frame=\(w.map { NSStringFromRect($0.frame) } ?? "none") onScreen=\(w?.occlusionState.contains(.visible) ?? false)\n".data(using: .utf8)!)
+        }
         timer = Timer.scheduledTimer(withTimeInterval: refreshSeconds, repeats: true) { [weak self] _ in self?.refresh() }
         NSWorkspace.shared.notificationCenter.addObserver(
             self, selector: #selector(refresh), name: NSWorkspace.didWakeNotification, object: nil)
