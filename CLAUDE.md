@@ -22,6 +22,9 @@ When someone points you at this repo and asks you to set it up, connect it or tr
    - Within about 2 minutes, `gh run list -R uda-eth/claude-analytics -L 1` shows a green `build` run, and https://uda-eth.github.io/claude-analytics/data.json lists `<label>` under `accounts`.
 6. Report the combined streak and each account's streak from that `data.json`.
 
+## Menu bar streak (optional)
+`./menubar/install.sh` builds `~/Applications/StreakBar.app` (a flame + combined streak in the menu bar) and starts it at login via launchd `com.uda-eth.streakbar`. It reads the Pages `data.json`, falls back to the local `docs/data.json`, and recounts the streak on the local calendar. Check it with `~/Applications/StreakBar.app/Contents/MacOS/StreakBar --print`. Remove it with `./menubar/install.sh --uninstall`.
+
 ## Rules
 - The repo is **public**. Never commit anything beyond what `collect.py` writes: no prompts, project names, session ids or paths.
 - Don't edit `README.md`'s stats block or `docs/data.json` by hand. The `build` workflow owns them.
