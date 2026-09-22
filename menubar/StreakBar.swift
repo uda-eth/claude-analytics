@@ -8,6 +8,7 @@ let localURL = FileManager.default.homeDirectoryForCurrentUser
     .appendingPathComponent("dev/claude-analytics/docs/data.json")
 let dashboardURL = URL(string: "https://uda-eth.github.io/claude-analytics/")!
 let refreshSeconds: TimeInterval = 15 * 60
+let goalDays = 333
 
 struct Stats {
     var current = 0, longest = 0, todayMessages = 0
@@ -88,7 +89,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             flame?.isTemplate = true
             button.image = flame
             button.imagePosition = .imageLeading
-            button.title = s.map { " \($0.current)d" } ?? " –"
+            button.title = s.map { " \($0.current)/\(goalDays)" } ?? " –/\(goalDays)"
             button.toolTip = "Combined Claude streak"
         }
 
@@ -96,6 +97,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         func info(_ t: String) { let m = NSMenuItem(title: t, action: nil, keyEquivalent: ""); m.isEnabled = false; menu.addItem(m) }
         if let s = s {
             info("Combined streak: \(s.current) days")
+            info("Goal: \(goalDays) days (\(max(0, goalDays - s.current)) to go)")
             info("Longest: \(s.longest) days")
             info("Today: \(s.todayMessages.formatted()) messages")
             menu.addItem(.separator())
