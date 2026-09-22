@@ -34,6 +34,14 @@ A day counts toward the combined streak if **either** account sent a message tha
 
 ## Setting up a laptop
 
+**The easy way:** open Claude Code on the new laptop and say:
+
+> Set up https://github.com/uda-eth/claude-analytics on this machine as the `personal` account
+
+Claude clones the repo, reads [`CLAUDE.md`](CLAUDE.md), installs the collector and checks the dashboard picked it up.
+
+**By hand:**
+
 ```bash
 git clone https://github.com/uda-eth/claude-analytics ~/dev/claude-analytics
 cd ~/dev/claude-analytics
