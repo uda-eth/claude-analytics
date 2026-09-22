@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Analytics</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #faf9f5; --panel: #ffffff; --ink: #1f1e1b; --muted: #6b6860; --line: #e6e3da;
+    --a0: #d97757; --a1: #5b7fbf; --h0: #efece3; --h1: #f3c9b5; --h2: #e9a07f; --h3: #d97757; --h4: #a8492c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1a1917; --panel: #24231f; --ink: #ece9e1; --muted: #9c988d; --line: #34322c;
+      --h0: #2c2a25; --h1: #5a3326; --h2: #8a4a33; --h3: #c46646; --h4: #f08f69;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1a1917; --panel: #24231f; --ink: #ece9e1; --muted: #9c988d; --line: #34322c;
+    --h0: #2c2a25; --h1: #5a3326; --h2: #8a4a33; --h3: #c46646; --h4: #f08f69;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.5 ui-sans-serif, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 24px; font-size: 13px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .card, .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .card .k { color: var(--muted); font-size: 12px; }
+  .card .v { font-size: 26px; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .card.hero .v { color: var(--a0); }
+  .panel { margin-bottom: 16px; min-width: 0; }
+  .panel h2 { font-size: 14px; margin: 0 0 12px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } }
+  .heat-wrap { overflow-x: auto; }
+  .heat { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 12px); gap: 3px; width: max-content; }
+  .heat i { width: 12px; height: 12px; border-radius: 2px; background: var(--h0); }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 14px; }
+  th, td { text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--muted); font-weight: 500; font-size: 12px; }
+  .table-wrap { overflow-x: auto; }
+  .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
+  canvas { max-height: 260px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Claude Analytics</h1>
+  <p class="sub" id="sub">Loading…</p>
+
+  <div class="cards" id="cards"></div>
+
+  <div class="panel">
+    <h2>Activity by day (either account)</h2>
+    <div class="heat-wrap"><div class="heat" id="heat"></div></div>
+  </div>
+
+  <div class="panel">
+    <h2>Messages per day, by account</h2>
+    <canvas id="daily"></canvas>
+  </div>
+
+  <div class="grid2">
+    <div class="panel"><h2>Tokens by model</h2><canvas id="models"></canvas></div>
+    <div class="panel"><h2>Sessions by hour started (local time)</h2><canvas id="hours"></canvas></div>
+  </div>
+
+  <div class="panel">
+    <h2>Accounts</h2>
+    <div class="table-wrap"><table id="accounts"></table></div>
+  </div>
+</main>
+<script>
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = n => n >= 1e9 ? (n/1e9).toFixed(1)+'B' : n >= 1e6 ? (n/1e6).toFixed(1)+'M' : n >= 1e3 ? (n/1e3).toFixed(1)+'K' : String(n);
+const palette = ['--a0', '--a1'].map(css).concat(['#7a9a5b', '#b5838d', '#c9a227', '#4f9d9a', '#8e6bbf', '#a0846a']);
+
+fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(s => {
+  const names = Object.keys(s.accounts);
+  document.getElementById('sub').textContent =
+    `${names.length} accounts · updated ${new Date(s.generatedAt).toLocaleString()}`;
+
+  const cards = [
+    ['Current streak', s.currentStreak + ' days', true],
+    ['Longest streak', s.longestStreak + ' days'],
+    ['Active days', s.activeDays],
+    ['Messages', s.messages.toLocaleString()],
+    ['Sessions', s.sessions.toLocaleString()],
+    ['Tokens', fmt(s.tokens)],
+  ];
+  document.getElementById('cards').innerHTML = cards.map(([k, v, hero]) =>
+    `<div class="card${hero ? ' hero' : ''}"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('');
+
+  // Heatmap: the last 26 weeks, aligned so each column starts on a Sunday.
+  const days = s.days, heat = document.getElementById('heat');
+  const end = new Date(); end.setHours(0,0,0,0);
+  const start = new Date(end); start.setDate(start.getDate() - 7*26 - start.getDay());
+  const max = Math.max(1, ...Object.values(days).map(d => d.messages));
+  for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+    const key = d.toLocaleDateString('en-CA');
+    const m = days[key]?.messages || 0;
+    const lvl = m === 0 ? 0 : Math.min(4, 1 + Math.floor(3 * Math.log(m) / Math.log(max + 1)));
+    const cell = document.createElement('i');
+    cell.style.background = css('--h' + lvl);
+    cell.title = `${key}: ${m.toLocaleString()} messages`;
+    heat.appendChild(cell);
+  }
+  heat.parentElement.scrollLeft = heat.scrollWidth; // show the most recent weeks first on narrow screens
+
+  Chart.defaults.color = css('--muted');
+  Chart.defaults.borderColor = css('--line');
+  const labels = Object.keys(days);
+  new Chart(document.getElementById('daily'), {
+    type: 'bar',
+    data: { labels, datasets: names.map((n, i) => ({
+      label: n, data: labels.map(d => days[d].byAccount[n] || 0), backgroundColor: palette[i] })) },
+    options: { responsive: true, scales: { x: { stacked: true, ticks: { maxTicksLimit: 10 } }, y: { stacked: true } } },
+  });
+
+  new Chart(document.getElementById('models'), {
+    type: 'doughnut',
+    data: { labels: Object.keys(s.models), datasets: [{ data: Object.values(s.models),
+      backgroundColor: Object.keys(s.models).map((_, i) => palette[i % palette.length]) }] },
+    options: { plugins: { tooltip: { callbacks: { label: c => `${c.label}: ${fmt(c.raw)}` } } } },
+  });
+
+  new Chart(document.getElementById('hours'), {
+    type: 'bar',
+    data: { labels: [...Array(24).keys()].map(h => String(h).padStart(2, '0')),
+      datasets: [{ label: 'sessions', data: [...Array(24).keys()].map(h => s.hourCounts[h] || 0), backgroundColor: palette[0] }] },
+    options: { plugins: { legend: { display: false } } },
+  });
+
+  document.getElementById('accounts').innerHTML =
+    '<tr><th>Account</th><th>Streak</th><th>Longest</th><th>Active days</th><th>Messages</th><th>Sessions</th><th>Tokens</th><th>Last sync</th></tr>' +
+    names.map((n, i) => { const a = s.accounts[n]; return `<tr><td><span class="dot" style="background:${palette[i]}"></span>${n}</td>` +
+      `<td>${a.currentStreak}</td><td>${a.longestStreak}</td><td>${a.activeDays}</td><td>${a.messages.toLocaleString()}</td>` +
+      `<td>${a.sessions.toLocaleString()}</td><td>${fmt(a.tokens)}</td><td>${(a.updatedAt || '').slice(0, 10)}</td></tr>`; }).join('');
+}).catch(e => { document.getElementById('sub').textContent = 'No data yet: ' + e.message; });
+</script>
+</body>
+</html>
