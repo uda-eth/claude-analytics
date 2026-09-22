@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-22T08:01:55+00:00",
-  "currentStreak": 33,
-  "longestStreak": 33,
-  "activeDays": 87,
-  "messages": 175748,
-  "sessions": 1085,
-  "toolCalls": 49154,
-  "tokens": 13450176653,
+  "generatedAt": "2026-09-22T08:05:06+00:00",
+  "currentStreak": 34,
+  "longestStreak": 34,
+  "activeDays": 89,
+  "messages": 180128,
+  "sessions": 1185,
+  "toolCalls": 53265,
+  "tokens": 13632185590,
   "accounts": {
     "personal": {
-      "currentStreak": 3,
-      "longestStreak": 8,
-      "activeDays": 72,
-      "messages": 95324,
-      "sessions": 577,
-      "tokens": 2306729776,
-      "updatedAt": "2026-09-22T08:01:42+00:00"
+      "currentStreak": 4,
+      "longestStreak": 9,
+      "activeDays": 76,
+      "messages": 99704,
+      "sessions": 677,
+      "tokens": 2488738713,
+      "updatedAt": "2026-09-22T08:04:52+00:00"
     },
     "work": {
       "currentStreak": 33,
@@ -30,7 +30,7 @@
   "models": {
     "claude-opus-5": 9831724826,
     "claude-opus-4-5-20251101": 3527675337,
-    "claude-fable-5-1": 2458014538,
+    "claude-fable-5-1": 2458049191,
     "claude-fable-5": 823957165,
     "claude-sonnet-4-5-20250929": 751209500,
     "claude-sonnet-5": 324755508,
@@ -39,30 +39,30 @@
     "claude-sonnet-4-6": 2447872
   },
   "hourCounts": {
-    "0": 37,
-    "1": 43,
-    "2": 33,
-    "3": 30,
-    "4": 37,
-    "5": 31,
-    "6": 33,
-    "7": 41,
-    "8": 45,
-    "9": 47,
-    "10": 36,
-    "11": 39,
-    "12": 88,
-    "13": 80,
-    "14": 48,
-    "15": 47,
-    "16": 44,
-    "17": 59,
-    "18": 48,
-    "19": 34,
-    "20": 48,
-    "21": 49,
-    "22": 50,
-    "23": 38
+    "0": 258,
+    "1": 545,
+    "2": 974,
+    "3": 157,
+    "4": 155,
+    "5": 226,
+    "6": 187,
+    "7": 176,
+    "8": 109,
+    "9": 461,
+    "10": 423,
+    "11": 149,
+    "12": 370,
+    "13": 881,
+    "14": 681,
+    "15": 400,
+    "16": 1571,
+    "17": 1530,
+    "18": 507,
+    "19": 305,
+    "20": 354,
+    "21": 365,
+    "22": 291,
+    "23": 290
   },
   "days": {
     "2025-12-27": {
@@ -533,6 +533,15 @@
         "work": 15
       }
     },
+    "2026-08-07": {
+      "messages": 48,
+      "sessions": 3,
+      "toolCalls": 28,
+      "tokens": 1667464,
+      "byAccount": {
+        "personal": 48
+      }
+    },
     "2026-08-08": {
       "messages": 112,
       "sessions": 3,
@@ -544,7 +553,7 @@
     },
     "2026-08-09": {
       "messages": 12,
-      "sessions": 0,
+      "sessions": 3,
       "toolCalls": 0,
       "tokens": 0,
       "byAccount": {
@@ -553,8 +562,8 @@
     },
     "2026-08-20": {
       "messages": 1915,
-      "sessions": 22,
-      "toolCalls": 472,
+      "sessions": 40,
+      "toolCalls": 639,
       "tokens": 114106051,
       "byAccount": {
         "personal": 1028,
@@ -572,12 +581,12 @@
       }
     },
     "2026-08-22": {
-      "messages": 4549,
-      "sessions": 15,
-      "toolCalls": 981,
+      "messages": 5053,
+      "sessions": 22,
+      "toolCalls": 2301,
       "tokens": 552912760,
       "byAccount": {
-        "personal": 3121,
+        "personal": 3625,
         "work": 1428
       }
     },
@@ -601,12 +610,12 @@
       }
     },
     "2026-08-25": {
-      "messages": 2820,
-      "sessions": 64,
-      "toolCalls": 510,
-      "tokens": 153721944,
+      "messages": 3240,
+      "sessions": 87,
+      "toolCalls": 793,
+      "tokens": 172751037,
       "byAccount": {
-        "personal": 280,
+        "personal": 700,
         "work": 2540
       }
     },
@@ -614,7 +623,7 @@
       "messages": 7579,
       "sessions": 86,
       "toolCalls": 1650,
-      "tokens": 482110621,
+      "tokens": 495537167,
       "byAccount": {
         "personal": 4492,
         "work": 3087
@@ -641,11 +650,12 @@
       }
     },
     "2026-08-29": {
-      "messages": 295,
-      "sessions": 3,
-      "toolCalls": 73,
-      "tokens": 7478299,
+      "messages": 374,
+      "sessions": 4,
+      "toolCalls": 112,
+      "tokens": 17678293,
       "byAccount": {
+        "personal": 79,
         "work": 295
       }
     },
@@ -661,8 +671,8 @@
     },
     "2026-08-31": {
       "messages": 2552,
-      "sessions": 14,
-      "toolCalls": 690,
+      "sessions": 18,
+      "toolCalls": 799,
       "tokens": 196788090,
       "byAccount": {
         "personal": 1784,
@@ -671,8 +681,8 @@
     },
     "2026-09-01": {
       "messages": 1337,
-      "sessions": 10,
-      "toolCalls": 280,
+      "sessions": 26,
+      "toolCalls": 429,
       "tokens": 100770393,
       "byAccount": {
         "personal": 1336,
@@ -708,11 +718,12 @@
       }
     },
     "2026-09-05": {
-      "messages": 49,
-      "sessions": 1,
-      "toolCalls": 5,
-      "tokens": 1276917,
+      "messages": 263,
+      "sessions": 4,
+      "toolCalls": 109,
+      "tokens": 18611867,
       "byAccount": {
+        "personal": 214,
         "work": 49
       }
     },
@@ -728,7 +739,7 @@
     },
     "2026-09-07": {
       "messages": 486,
-      "sessions": 1,
+      "sessions": 2,
       "toolCalls": 93,
       "tokens": 119208102,
       "byAccount": {
@@ -809,12 +820,12 @@
       }
     },
     "2026-09-16": {
-      "messages": 971,
+      "messages": 3781,
       "sessions": 4,
-      "toolCalls": 193,
-      "tokens": 51548656,
+      "toolCalls": 1813,
+      "tokens": 142921263,
       "byAccount": {
-        "personal": 394,
+        "personal": 3204,
         "work": 577
       }
     },
@@ -840,7 +851,7 @@
     "2026-09-19": {
       "messages": 8502,
       "sessions": 211,
-      "toolCalls": 913,
+      "toolCalls": 918,
       "tokens": 568581998,
       "byAccount": {
         "personal": 470,
@@ -849,8 +860,8 @@
     },
     "2026-09-20": {
       "messages": 4237,
-      "sessions": 93,
-      "toolCalls": 857,
+      "sessions": 109,
+      "toolCalls": 1005,
       "tokens": 210015082,
       "byAccount": {
         "personal": 3012,
@@ -865,6 +876,15 @@
       "byAccount": {
         "personal": 1549,
         "work": 5078
+      }
+    },
+    "2026-09-22": {
+      "messages": 305,
+      "sessions": 5,
+      "toolCalls": 139,
+      "tokens": 28978283,
+      "byAccount": {
+        "personal": 305
       }
     }
   }
