@@ -18,9 +18,12 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 
 
+def config_dir():
+    return Path(os.environ.get("CLAUDE_CONFIG_DIR", Path.home() / ".claude"))
+
+
 def load_cache():
-    config = Path(os.environ.get("CLAUDE_CONFIG_DIR", Path.home() / ".claude"))
-    path = config / "stats-cache.json"
+    path = config_dir() / "stats-cache.json"
     if not path.exists():
         sys.exit(f"no stats cache at {path} (run /stats in Claude Code once)")
     return json.loads(path.read_text())
@@ -42,6 +45,7 @@ def sanitize(cache):
                ("inputTokens", "outputTokens", "cacheReadInputTokens", "cacheCreationInputTokens")}
         for name, u in cache.get("modelUsage", {}).items()
     }
+    days.update(transcript_days(config_dir(), cache.get("lastComputedDate", "")))
     longest = cache.get("longestSession") or {}
     return {
         "days": days,
@@ -51,6 +55,34 @@ def sanitize(cache):
         "totalMessages": cache.get("totalMessages", 0),
         "longestSession": {k: longest.get(k) for k in ("duration", "messageCount", "timestamp")},
     }
+
+
+def transcript_days(config, after):
+    """Count days the cache hasn't computed yet (it only refreshes on /stats) from the raw transcripts."""
+    days, sessions = {}, {}
+    for f in (config / "projects").glob("**/*.jsonl"):
+        if datetime.fromtimestamp(f.stat().st_mtime).strftime("%Y-%m-%d") <= after:
+            continue
+        for line in f.open(errors="ignore"):
+            try:
+                e = json.loads(line)
+            except ValueError:
+                continue
+            if e.get("type") not in ("user", "assistant") or "timestamp" not in e:
+                continue
+            ts = datetime.fromisoformat(e["timestamp"].replace("Z", "+00:00")).astimezone()
+            date = ts.strftime("%Y-%m-%d")
+            if date <= after:
+                continue
+            d = days.setdefault(date, {"messages": 0, "sessions": 0, "toolCalls": 0})
+            d["messages"] += 1
+            sessions.setdefault(date, set()).add(e.get("sessionId"))
+            content = (e.get("message") or {}).get("content")
+            if isinstance(content, list):
+                d["toolCalls"] += sum(1 for c in content if isinstance(c, dict) and c.get("type") == "tool_use")
+    for date, ids in sessions.items():
+        days[date]["sessions"] = len(ids)
+    return days
 
 
 def merge(old, new):
