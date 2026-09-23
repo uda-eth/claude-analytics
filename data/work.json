@@ -307,6 +307,16 @@
         "claude-sonnet-5": 6697039,
         "claude-opus-5": 591573676
       }
+    },
+    "2026-09-22": {
+      "messages": 1372,
+      "sessions": 4,
+      "toolCalls": 416
+    },
+    "2026-09-23": {
+      "messages": 129,
+      "sessions": 3,
+      "toolCalls": 45
     }
   },
   "models": {
@@ -381,5 +391,5 @@
     "timestamp": "2026-09-04T21:55:21.591Z"
   },
   "account": "work",
-  "updatedAt": "2026-09-23T09:11:15+00:00"
+  "updatedAt": "2026-09-23T09:35:02+00:00"
 }
