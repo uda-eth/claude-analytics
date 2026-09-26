@@ -543,12 +543,13 @@
       }
     },
     "2026-09-25": {
-      "messages": 1367,
-      "sessions": 2,
-      "toolCalls": 713,
+      "messages": 1784,
+      "sessions": 32,
+      "toolCalls": 889,
       "tokensByModel": {
-        "claude-opus-5": 65200112,
-        "claude-opus-5-5": 71265731
+        "claude-opus-5": 128895839,
+        "claude-opus-5-5": 74503945,
+        "claude-sonnet-5": 1402793
       }
     }
   },
@@ -602,45 +603,45 @@
       "cacheCreationInputTokens": 7379988
     },
     "claude-opus-5-5": {
-      "inputTokens": 10172,
-      "outputTokens": 721235,
-      "cacheReadInputTokens": 1065938319,
-      "cacheCreationInputTokens": 20941038
+      "inputTokens": 10186,
+      "outputTokens": 725953,
+      "cacheReadInputTokens": 1068546696,
+      "cacheCreationInputTokens": 21566143
     },
     "claude-sonnet-5": {
-      "inputTokens": 300,
-      "outputTokens": 53344,
-      "cacheReadInputTokens": 4376674,
-      "cacheCreationInputTokens": 909785
+      "inputTokens": 420,
+      "outputTokens": 73307,
+      "cacheReadInputTokens": 5389358,
+      "cacheCreationInputTokens": 1279811
     }
   },
   "hourCounts": {
     "8": 84,
     "3": 227,
     "4": 134,
-    "21": 756,
-    "12": 584,
-    "23": 617,
-    "17": 2446,
+    "21": 933,
+    "12": 536,
+    "23": 575,
+    "17": 2427,
     "9": 435,
-    "6": 164,
+    "6": 163,
     "7": 146,
     "10": 400,
-    "20": 1374,
-    "16": 2231,
+    "20": 1297,
+    "16": 1560,
     "19": 835,
-    "18": 1557,
-    "2": 1312,
-    "14": 1181,
-    "5": 204,
-    "1": 524,
-    "0": 389,
-    "15": 1326,
-    "22": 1266,
-    "13": 1135,
-    "11": 865
+    "18": 1552,
+    "2": 573,
+    "14": 1179,
+    "5": 202,
+    "1": 301,
+    "0": 306,
+    "15": 1248,
+    "22": 1243,
+    "13": 1121,
+    "11": 844
   },
-  "totalSessions": 668,
+  "totalSessions": 694,
   "totalMessages": 95324,
   "longestSession": {
     "duration": 135539844,
@@ -648,5 +649,5 @@
     "timestamp": "2026-09-06T04:51:13.913Z"
   },
   "account": "personal",
-  "updatedAt": "2026-09-26T01:07:06+00:00"
+  "updatedAt": "2026-09-26T03:07:04+00:00"
 }
