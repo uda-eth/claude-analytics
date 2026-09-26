@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-26T04:02:59+00:00",
+  "generatedAt": "2026-09-26T04:07:13+00:00",
   "currentStreak": 38,
   "longestStreak": 38,
   "activeDays": 93,
-  "messages": 294128,
+  "messages": 294137,
   "sessions": 1521,
-  "toolCalls": 98174,
-  "tokens": 15569257223,
+  "toolCalls": 98177,
+  "tokens": 15573921105,
   "accounts": {
     "personal": {
       "currentStreak": 8,
       "longestStreak": 9,
       "activeDays": 80,
-      "messages": 117686,
+      "messages": 117695,
       "sessions": 953,
-      "tokens": 4425810346,
-      "updatedAt": "2026-09-26T04:02:49+00:00"
+      "tokens": 4430474228,
+      "updatedAt": "2026-09-26T04:07:04+00:00"
     },
     "work": {
       "currentStreak": 37,
@@ -40,7 +40,7 @@
     "claude-sonnet-4-6": 2447872
   },
   "hourCounts": {
-    "0": 331,
+    "0": 335,
     "1": 322,
     "2": 596,
     "3": 247,
@@ -920,12 +920,12 @@
       }
     },
     "2026-09-26": {
-      "messages": 7,
+      "messages": 16,
       "sessions": 1,
-      "toolCalls": 3,
-      "tokens": 2789319,
+      "toolCalls": 6,
+      "tokens": 7453201,
       "byAccount": {
-        "personal": 7
+        "personal": 16
       }
     }
   }
