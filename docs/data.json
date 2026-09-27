@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-27T05:07:15+00:00",
-  "currentStreak": 38,
-  "longestStreak": 38,
-  "activeDays": 93,
-  "messages": 298892,
-  "sessions": 1525,
-  "toolCalls": 99936,
-  "tokens": 15618427417,
+  "generatedAt": "2026-09-27T05:23:42+00:00",
+  "currentStreak": 39,
+  "longestStreak": 39,
+  "activeDays": 94,
+  "messages": 298909,
+  "sessions": 1531,
+  "toolCalls": 99939,
+  "tokens": 15618656131,
   "accounts": {
     "personal": {
-      "currentStreak": 8,
+      "currentStreak": 9,
       "longestStreak": 9,
-      "activeDays": 80,
-      "messages": 117935,
-      "sessions": 953,
-      "tokens": 4474980540,
-      "updatedAt": "2026-09-27T05:07:06+00:00"
+      "activeDays": 81,
+      "messages": 117952,
+      "sessions": 959,
+      "tokens": 4475209254,
+      "updatedAt": "2026-09-27T05:23:32+00:00"
     },
     "work": {
       "currentStreak": 38,
@@ -31,17 +31,17 @@
     "claude-opus-5": 9928664894,
     "claude-opus-4-5-20251101": 3527675337,
     "claude-fable-5-1": 2458051661,
-    "claude-opus-5-5": 1090848978,
+    "claude-opus-5-5": 1090976155,
     "claude-fable-5": 823957165,
     "claude-sonnet-4-5-20250929": 751209500,
-    "claude-sonnet-5": 331498404,
+    "claude-sonnet-5": 331599941,
     "claude-haiku-4-5-20251001": 182264976,
     "claude-opus-4-8": 4940584,
     "claude-sonnet-4-6": 2447872
   },
   "hourCounts": {
     "0": 470,
-    "1": 322,
+    "1": 331,
     "2": 596,
     "3": 247,
     "4": 157,
@@ -54,14 +54,14 @@
     "11": 862,
     "12": 559,
     "13": 1145,
-    "14": 1196,
-    "15": 1263,
+    "14": 1175,
+    "15": 1246,
     "16": 1578,
-    "17": 2453,
-    "18": 1566,
-    "19": 842,
-    "20": 1315,
-    "21": 950,
+    "17": 2452,
+    "18": 1520,
+    "19": 804,
+    "20": 1262,
+    "21": 949,
     "22": 1270,
     "23": 629
   },
@@ -927,6 +927,15 @@
       "byAccount": {
         "personal": 256,
         "work": 110
+      }
+    },
+    "2026-09-27": {
+      "messages": 17,
+      "sessions": 6,
+      "toolCalls": 3,
+      "tokens": 228714,
+      "byAccount": {
+        "personal": 17
       }
     }
   }
