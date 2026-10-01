@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-01T03:26:30+00:00",
-  "currentStreak": 42,
-  "longestStreak": 42,
-  "activeDays": 97,
-  "messages": 420907,
-  "sessions": 1691,
-  "toolCalls": 143500,
-  "tokens": 15807903908,
+  "generatedAt": "2026-10-01T04:04:45+00:00",
+  "currentStreak": 43,
+  "longestStreak": 43,
+  "activeDays": 98,
+  "messages": 421237,
+  "sessions": 1692,
+  "toolCalls": 143666,
+  "tokens": 15877941015,
   "accounts": {
     "personal": {
-      "currentStreak": 12,
-      "longestStreak": 12,
-      "activeDays": 84,
-      "messages": 120806,
-      "sessions": 1024,
-      "tokens": 4664457031,
-      "updatedAt": "2026-10-01T03:07:03+00:00"
+      "currentStreak": 13,
+      "longestStreak": 13,
+      "activeDays": 85,
+      "messages": 121136,
+      "sessions": 1025,
+      "tokens": 4734494138,
+      "updatedAt": "2026-10-01T04:03:39+00:00"
     },
     "work": {
       "currentStreak": 42,
@@ -31,7 +31,7 @@
     "claude-opus-5": 9928664894,
     "claude-opus-4-5-20251101": 3527675337,
     "claude-fable-5-1": 2458051661,
-    "claude-opus-5-5": 1278207239,
+    "claude-opus-5-5": 1348244346,
     "claude-fable-5": 823957165,
     "claude-sonnet-4-5-20250929": 751209500,
     "claude-sonnet-5": 333616634,
@@ -40,7 +40,7 @@
     "claude-sonnet-4-6": 2447872
   },
   "hourCounts": {
-    "0": 481,
+    "0": 482,
     "1": 405,
     "2": 596,
     "3": 247,
@@ -63,7 +63,7 @@
     "20": 1309,
     "21": 1197,
     "22": 1574,
-    "23": 647
+    "23": 813
   },
   "days": {
     "2025-12-27": {
@@ -960,13 +960,22 @@
       }
     },
     "2026-09-30": {
-      "messages": 91230,
+      "messages": 91558,
       "sessions": 15,
-      "toolCalls": 33051,
-      "tokens": 79604502,
+      "toolCalls": 33216,
+      "tokens": 149350291,
       "byAccount": {
-        "personal": 1083,
+        "personal": 1411,
         "work": 90147
+      }
+    },
+    "2026-10-01": {
+      "messages": 2,
+      "sessions": 1,
+      "toolCalls": 1,
+      "tokens": 291318,
+      "byAccount": {
+        "personal": 2
       }
     }
   }
