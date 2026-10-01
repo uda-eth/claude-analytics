@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T23:25:42+00:00",
+  "generatedAt": "2026-10-01T00:07:18+00:00",
   "currentStreak": 42,
   "longestStreak": 42,
   "activeDays": 97,
@@ -9,13 +9,13 @@
   "tokens": 15728299406,
   "accounts": {
     "personal": {
-      "currentStreak": 11,
+      "currentStreak": 0,
       "longestStreak": 11,
       "activeDays": 83,
       "messages": 119723,
       "sessions": 1019,
       "tokens": 4584852529,
-      "updatedAt": "2026-09-30T23:07:04+00:00"
+      "updatedAt": "2026-10-01T00:07:04+00:00"
     },
     "work": {
       "currentStreak": 42,
