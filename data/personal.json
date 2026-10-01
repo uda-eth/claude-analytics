@@ -594,11 +594,11 @@
       }
     },
     "2026-10-01": {
-      "messages": 1712,
+      "messages": 2109,
       "sessions": 14,
-      "toolCalls": 827,
+      "toolCalls": 1024,
       "tokensByModel": {
-        "claude-opus-5-5": 353454671,
+        "claude-opus-5-5": 425584860,
         "claude-haiku-4-5-20251001": 405791
       }
     }
@@ -653,10 +653,10 @@
       "cacheCreationInputTokens": 7379988
     },
     "claude-opus-5-5": {
-      "inputTokens": 14780,
-      "outputTokens": 2336900,
-      "cacheReadInputTokens": 1671443430,
-      "cacheCreationInputTokens": 27612589
+      "inputTokens": 15166,
+      "outputTokens": 2447119,
+      "cacheReadInputTokens": 1743210046,
+      "cacheCreationInputTokens": 27865557
     },
     "claude-sonnet-5": {
       "inputTokens": 542,
@@ -678,7 +678,7 @@
     "7": 146,
     "10": 820,
     "20": 1291,
-    "16": 1560,
+    "16": 1570,
     "19": 861,
     "18": 1564,
     "2": 573,
@@ -686,7 +686,7 @@
     "5": 202,
     "1": 384,
     "0": 546,
-    "15": 1279,
+    "15": 1474,
     "22": 1547,
     "13": 1175,
     "11": 1297
@@ -699,5 +699,5 @@
     "timestamp": "2026-09-06T04:51:13.913Z"
   },
   "account": "personal",
-  "updatedAt": "2026-10-01T19:07:02+00:00"
+  "updatedAt": "2026-10-01T20:07:04+00:00"
 }
