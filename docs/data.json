@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-02T10:56:31+00:00",
+  "generatedAt": "2026-10-02T11:07:10+00:00",
   "currentStreak": 44,
   "longestStreak": 44,
   "activeDays": 99,
-  "messages": 442794,
-  "sessions": 1748,
+  "messages": 442800,
+  "sessions": 1751,
   "toolCalls": 151702,
-  "tokens": 16382166282,
+  "tokens": 16382300677,
   "accounts": {
     "personal": {
       "currentStreak": 14,
       "longestStreak": 14,
       "activeDays": 86,
-      "messages": 123934,
-      "sessions": 1075,
-      "tokens": 5238719405,
-      "updatedAt": "2026-10-02T10:07:05+00:00"
+      "messages": 123940,
+      "sessions": 1078,
+      "tokens": 5238853800,
+      "updatedAt": "2026-10-02T11:07:00+00:00"
     },
     "work": {
       "currentStreak": 44,
@@ -31,7 +31,7 @@
     "claude-opus-5": 9928664894,
     "claude-opus-4-5-20251101": 3527675337,
     "claude-fable-5-1": 2458051661,
-    "claude-opus-5-5": 1852063822,
+    "claude-opus-5-5": 1852198217,
     "claude-fable-5": 823957165,
     "claude-sonnet-4-5-20250929": 751209500,
     "claude-sonnet-5": 333616634,
@@ -46,7 +46,7 @@
     "3": 250,
     "4": 160,
     "5": 227,
-    "6": 186,
+    "6": 189,
     "7": 176,
     "8": 117,
     "9": 669,
@@ -980,12 +980,12 @@
       }
     },
     "2026-10-02": {
-      "messages": 9253,
-      "sessions": 19,
+      "messages": 9259,
+      "sessions": 22,
       "toolCalls": 3401,
-      "tokens": 800060,
+      "tokens": 934455,
       "byAccount": {
-        "personal": 36,
+        "personal": 42,
         "work": 9217
       }
     }
