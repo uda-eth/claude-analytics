@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-04T03:15:21+00:00",
-  "currentStreak": 45,
-  "longestStreak": 45,
-  "activeDays": 100,
-  "messages": 487158,
-  "sessions": 1913,
-  "toolCalls": 167873,
-  "tokens": 16562167989,
+  "generatedAt": "2026-10-04T04:02:33+00:00",
+  "currentStreak": 46,
+  "longestStreak": 46,
+  "activeDays": 101,
+  "messages": 487250,
+  "sessions": 1917,
+  "toolCalls": 167914,
+  "tokens": 16585510539,
   "accounts": {
     "personal": {
-      "currentStreak": 15,
-      "longestStreak": 15,
-      "activeDays": 87,
-      "messages": 125285,
-      "sessions": 1165,
-      "tokens": 5418721112,
-      "updatedAt": "2026-10-04T03:07:10+00:00"
+      "currentStreak": 16,
+      "longestStreak": 16,
+      "activeDays": 88,
+      "messages": 125377,
+      "sessions": 1169,
+      "tokens": 5442063662,
+      "updatedAt": "2026-10-04T04:02:23+00:00"
     },
     "work": {
       "currentStreak": 45,
@@ -31,7 +31,7 @@
     "claude-opus-5": 9928664894,
     "claude-opus-4-5-20251101": 3527675337,
     "claude-fable-5-1": 2458051661,
-    "claude-opus-5-5": 2031465760,
+    "claude-opus-5-5": 2054808310,
     "claude-fable-5": 823957165,
     "claude-sonnet-4-5-20250929": 751209500,
     "claude-sonnet-5": 333616634,
@@ -41,7 +41,7 @@
     "claude-sonnet-5-5": 599769
   },
   "hourCounts": {
-    "0": 570,
+    "0": 572,
     "1": 408,
     "2": 599,
     "3": 250,
@@ -64,7 +64,7 @@
     "20": 1424,
     "21": 1327,
     "22": 1753,
-    "23": 860
+    "23": 905
   },
   "days": {
     "2025-12-27": {
@@ -991,13 +991,22 @@
       }
     },
     "2026-10-03": {
-      "messages": 16435,
-      "sessions": 80,
-      "toolCalls": 6111,
-      "tokens": 94585043,
+      "messages": 16524,
+      "sessions": 82,
+      "toolCalls": 6152,
+      "tokens": 117883804,
       "byAccount": {
-        "personal": 643,
+        "personal": 732,
         "work": 15792
+      }
+    },
+    "2026-10-04": {
+      "messages": 3,
+      "sessions": 2,
+      "toolCalls": 0,
+      "tokens": 43789,
+      "byAccount": {
+        "personal": 3
       }
     }
   }
