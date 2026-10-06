@@ -636,6 +636,12 @@
         "claude-opus-5-5": 10833879,
         "claude-haiku-4-5-20251001": 37394
       }
+    },
+    "2026-10-06": {
+      "messages": 2,
+      "sessions": 1,
+      "toolCalls": 0,
+      "tokensByModel": {}
     }
   },
   "models": {
@@ -726,13 +732,13 @@
     "14": 1279,
     "5": 211,
     "1": 421,
-    "0": 608,
+    "0": 609,
     "15": 1574,
     "22": 1732,
     "13": 1100,
     "11": 1311
   },
-  "totalSessions": 1037,
+  "totalSessions": 1038,
   "totalMessages": 95324,
   "longestSession": {
     "duration": 135539844,
@@ -740,5 +746,5 @@
     "timestamp": "2026-09-06T04:51:13.913Z"
   },
   "account": "personal",
-  "updatedAt": "2026-10-06T04:07:04+00:00"
+  "updatedAt": "2026-10-06T04:13:13+00:00"
 }
