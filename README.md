@@ -10,17 +10,17 @@ Combined Claude Code usage across two Claude accounts: one streak and one set of
 | 🔥 Current streak | **49 days** |
 | 🏆 Longest streak | 49 days |
 | Active days | 104 |
-| Messages | 554,400 |
-| Sessions | 6,254 |
-| Tool calls | 188,729 |
+| Messages | 556,010 |
+| Sessions | 6,256 |
+| Tool calls | 189,311 |
 | Tokens | 16.7B |
 
 | Account | Current streak | Longest | Active days | Messages | Sessions | Tokens | Last sync |
 |---|---|---|---|---|---|---|---|
 | personal | 19 | 19 | 91 | 126,484 | 1,408 | 5.6B | 2026-10-07 |
-| work | 49 | 49 | 50 | 427,916 | 4,846 | 11.1B | 2026-10-07 |
+| work | 49 | 49 | 50 | 429,526 | 4,848 | 11.1B | 2026-10-07 |
 
-_Updated 2026-10-07 13:21 UTC_
+_Updated 2026-10-07 14:21 UTC_
 <!-- stats:end -->
 
 ## How it works
