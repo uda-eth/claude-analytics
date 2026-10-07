@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-07T03:13:39+00:00",
-  "currentStreak": 48,
-  "longestStreak": 48,
-  "activeDays": 103,
-  "messages": 542818,
-  "sessions": 6221,
+  "generatedAt": "2026-10-07T04:01:21+00:00",
+  "currentStreak": 49,
+  "longestStreak": 49,
+  "activeDays": 104,
+  "messages": 542824,
+  "sessions": 6224,
   "toolCalls": 184511,
-  "tokens": 16731517906,
+  "tokens": 16731642416,
   "accounts": {
     "personal": {
-      "currentStreak": 18,
-      "longestStreak": 18,
-      "activeDays": 90,
-      "messages": 126424,
-      "sessions": 1378,
-      "tokens": 5588071029,
-      "updatedAt": "2026-10-07T03:07:06+00:00"
+      "currentStreak": 19,
+      "longestStreak": 19,
+      "activeDays": 91,
+      "messages": 126430,
+      "sessions": 1381,
+      "tokens": 5588195539,
+      "updatedAt": "2026-10-07T04:01:13+00:00"
     },
     "work": {
       "currentStreak": 48,
@@ -31,7 +31,7 @@
     "claude-opus-5": 9928664894,
     "claude-opus-4-5-20251101": 3527675337,
     "claude-fable-5-1": 2458051661,
-    "claude-opus-5-5": 2200778283,
+    "claude-opus-5-5": 2200902793,
     "claude-fable-5": 823957165,
     "claude-sonnet-4-5-20250929": 751209500,
     "claude-sonnet-5": 333616634,
@@ -41,7 +41,7 @@
     "claude-sonnet-5-5": 599769
   },
   "hourCounts": {
-    "0": 632,
+    "0": 633,
     "1": 445,
     "2": 765,
     "3": 279,
@@ -64,7 +64,7 @@
     "20": 1431,
     "21": 1332,
     "22": 1762,
-    "23": 912
+    "23": 914
   },
   "days": {
     "2025-12-27": {
@@ -1021,13 +1021,22 @@
       }
     },
     "2026-10-06": {
-      "messages": 15593,
-      "sessions": 111,
+      "messages": 15597,
+      "sessions": 113,
       "toolCalls": 5292,
-      "tokens": 1734801,
+      "tokens": 1817806,
       "byAccount": {
-        "personal": 138,
+        "personal": 142,
         "work": 15455
+      }
+    },
+    "2026-10-07": {
+      "messages": 2,
+      "sessions": 1,
+      "toolCalls": 0,
+      "tokens": 41505,
+      "byAccount": {
+        "personal": 2
       }
     }
   }
