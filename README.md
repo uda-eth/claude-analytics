@@ -20,7 +20,7 @@ Combined Claude Code usage across two Claude accounts: one streak and one set of
 | personal | 19 | 19 | 91 | 126,888 | 1,448 | 5.6B | 2026-10-08 |
 | work | 49 | 49 | 50 | 456,754 | 4,854 | 11.1B | 2026-10-08 |
 
-_Updated 2026-10-08 02:29 UTC_
+_Updated 2026-10-08 03:09 UTC_
 <!-- stats:end -->
 
 ## How it works
