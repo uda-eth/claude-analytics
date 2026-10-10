@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-10T05:07:15+00:00",
+  "generatedAt": "2026-10-10T05:20:47+00:00",
   "currentStreak": 52,
   "longestStreak": 52,
   "activeDays": 107,
-  "messages": 663984,
-  "sessions": 6408,
-  "toolCalls": 228510,
-  "tokens": 16758930530,
+  "messages": 383100,
+  "sessions": 6380,
+  "toolCalls": 130546,
+  "tokens": 49938019409,
   "accounts": {
     "personal": {
       "currentStreak": 22,
@@ -21,50 +21,50 @@
       "currentStreak": 52,
       "longestStreak": 52,
       "activeDays": 53,
-      "messages": 536797,
-      "sessions": 4868,
-      "tokens": 11143446877,
-      "updatedAt": "2026-10-10T04:20:20+00:00"
+      "messages": 255913,
+      "sessions": 4840,
+      "tokens": 44322535756,
+      "updatedAt": "2026-10-10T05:20:35+00:00"
     }
   },
   "models": {
-    "claude-opus-5": 9928664894,
+    "claude-opus-5-5": 34535991973,
+    "claude-opus-5": 10477075672,
     "claude-opus-4-5-20251101": 3527675337,
-    "claude-fable-5-1": 2458051661,
-    "claude-opus-5-5": 2228190907,
+    "claude-fable-5-1": 2631095767,
     "claude-fable-5": 823957165,
     "claude-sonnet-4-5-20250929": 751209500,
-    "claude-sonnet-5": 333616634,
-    "claude-haiku-4-5-20251001": 182264976,
+    "claude-sonnet-5": 377350112,
+    "claude-haiku-4-5-20251001": 243822161,
+    "claude-sonnet-5-5": 45142035,
     "claude-opus-4-8": 4940584,
-    "claude-sonnet-4-6": 2447872,
-    "claude-sonnet-5-5": 599769
+    "claude-sonnet-4-6": 2447872
   },
   "hourCounts": {
-    "0": 595,
-    "1": 389,
-    "2": 722,
+    "0": 613,
+    "1": 403,
+    "2": 734,
     "3": 241,
     "4": 141,
-    "5": 243,
-    "6": 204,
-    "7": 205,
-    "8": 134,
-    "9": 703,
-    "10": 930,
-    "11": 1323,
-    "12": 670,
-    "13": 1031,
-    "14": 1246,
-    "15": 1596,
-    "16": 1683,
-    "17": 2646,
-    "18": 1659,
-    "19": 917,
-    "20": 1508,
-    "21": 1265,
-    "22": 1754,
-    "23": 862
+    "5": 250,
+    "6": 206,
+    "7": 208,
+    "8": 139,
+    "9": 743,
+    "10": 934,
+    "11": 1352,
+    "12": 683,
+    "13": 1047,
+    "14": 1376,
+    "15": 1971,
+    "16": 1945,
+    "17": 3333,
+    "18": 2481,
+    "19": 1726,
+    "20": 2314,
+    "21": 1483,
+    "22": 1778,
+    "23": 896
   },
   "days": {
     "2025-12-27": {
@@ -881,193 +881,193 @@
       }
     },
     "2026-09-22": {
-      "messages": 6863,
-      "sessions": 247,
-      "toolCalls": 3072,
-      "tokens": 536191619,
+      "messages": 8896,
+      "sessions": 251,
+      "toolCalls": 3402,
+      "tokens": 995338703,
       "byAccount": {
         "personal": 5491,
-        "work": 1372
+        "work": 3405
       }
     },
     "2026-09-23": {
-      "messages": 25241,
-      "sessions": 19,
-      "toolCalls": 9540,
-      "tokens": 78470188,
+      "messages": 4088,
+      "sessions": 16,
+      "toolCalls": 7945,
+      "tokens": 4359584695,
       "byAccount": {
         "personal": 717,
-        "work": 24524
+        "work": 3371
       }
     },
     "2026-09-24": {
-      "messages": 36960,
-      "sessions": 18,
-      "toolCalls": 15384,
-      "tokens": 1110829461,
+      "messages": 14915,
+      "sessions": 15,
+      "toolCalls": 13503,
+      "tokens": 6375491946,
       "byAccount": {
         "personal": 10216,
-        "work": 26744
+        "work": 4699
       }
     },
     "2026-09-25": {
-      "messages": 49639,
-      "sessions": 57,
-      "toolCalls": 18658,
-      "tokens": 237769329,
+      "messages": 5867,
+      "sessions": 36,
+      "toolCalls": 16449,
+      "tokens": 7265467616,
       "byAccount": {
         "personal": 1856,
-        "work": 47783
+        "work": 4011
       }
     },
     "2026-09-26": {
-      "messages": 366,
-      "sessions": 4,
-      "toolCalls": 156,
-      "tokens": 51959513,
+      "messages": 1640,
+      "sessions": 24,
+      "toolCalls": 4200,
+      "tokens": 1620607049,
       "byAccount": {
         "personal": 256,
-        "work": 110
+        "work": 1384
       }
     },
     "2026-09-27": {
-      "messages": 4704,
-      "sessions": 91,
-      "toolCalls": 1499,
-      "tokens": 6542208,
+      "messages": 1310,
+      "sessions": 57,
+      "toolCalls": 249,
+      "tokens": 44317116,
       "byAccount": {
         "personal": 281,
-        "work": 4423
+        "work": 1029
       }
     },
     "2026-09-28": {
-      "messages": 16901,
-      "sessions": 51,
-      "toolCalls": 5858,
-      "tokens": 94040920,
+      "messages": 15249,
+      "sessions": 83,
+      "toolCalls": 6226,
+      "tokens": 2287844715,
       "byAccount": {
         "personal": 1290,
-        "work": 15611
+        "work": 13959
       }
     },
     "2026-09-29": {
-      "messages": 9180,
-      "sessions": 9,
-      "toolCalls": 3156,
-      "tokens": 9288861,
+      "messages": 2632,
+      "sessions": 8,
+      "toolCalls": 2517,
+      "tokens": 1399672617,
       "byAccount": {
         "personal": 217,
-        "work": 8963
+        "work": 2415
       }
     },
     "2026-09-30": {
-      "messages": 91714,
-      "sessions": 15,
-      "toolCalls": 33261,
-      "tokens": 149350291,
+      "messages": 6494,
+      "sessions": 13,
+      "toolCalls": 5113,
+      "tokens": 2762201754,
       "byAccount": {
         "personal": 1411,
-        "work": 90303
+        "work": 5083
       }
     },
     "2026-10-01": {
-      "messages": 12874,
-      "sessions": 39,
-      "toolCalls": 4824,
-      "tokens": 503716525,
+      "messages": 9004,
+      "sessions": 38,
+      "toolCalls": 2884,
+      "tokens": 1867966445,
       "byAccount": {
         "personal": 2764,
-        "work": 10110
+        "work": 6240
       }
     },
     "2026-10-02": {
-      "messages": 37207,
-      "sessions": 105,
-      "toolCalls": 13467,
-      "tokens": 86216724,
+      "messages": 6238,
+      "sessions": 99,
+      "toolCalls": 1712,
+      "tokens": 896183565,
       "byAccount": {
         "personal": 744,
-        "work": 36463
+        "work": 5494
       }
     },
     "2026-10-03": {
-      "messages": 17416,
-      "sessions": 93,
-      "toolCalls": 6466,
-      "tokens": 117883804,
+      "messages": 5786,
+      "sessions": 79,
+      "toolCalls": 2100,
+      "tokens": 562659098,
       "byAccount": {
         "personal": 732,
-        "work": 16684
+        "work": 5054
       }
     },
     "2026-10-04": {
-      "messages": 15425,
-      "sessions": 100,
-      "toolCalls": 5686,
-      "tokens": 133445082,
+      "messages": 5883,
+      "sessions": 111,
+      "toolCalls": 1375,
+      "tokens": 317761554,
       "byAccount": {
         "personal": 746,
-        "work": 14679
+        "work": 5137
       }
     },
     "2026-10-05": {
-      "messages": 22912,
-      "sessions": 4082,
-      "toolCalls": 5066,
-      "tokens": 10871273,
+      "messages": 69788,
+      "sessions": 3087,
+      "toolCalls": 867,
+      "tokens": 611044767,
       "byAccount": {
         "personal": 166,
-        "work": 22746
+        "work": 69622
       }
     },
     "2026-10-06": {
-      "messages": 16009,
-      "sessions": 113,
-      "toolCalls": 5438,
-      "tokens": 1817806,
+      "messages": 28345,
+      "sessions": 1105,
+      "toolCalls": 2040,
+      "tokens": 1315023282,
       "byAccount": {
         "personal": 142,
-        "work": 15867
+        "work": 28203
       }
     },
     "2026-10-07": {
-      "messages": 44518,
-      "sessions": 81,
-      "toolCalls": 16317,
-      "tokens": 19194601,
+      "messages": 5384,
+      "sessions": 77,
+      "toolCalls": 1962,
+      "tokens": 1398176541,
       "byAccount": {
         "personal": 464,
-        "work": 44054
+        "work": 4920
       }
     },
     "2026-10-08": {
-      "messages": 46096,
-      "sessions": 71,
-      "toolCalls": 16828,
-      "tokens": 3965216,
+      "messages": 4718,
+      "sessions": 69,
+      "toolCalls": 1420,
+      "tokens": 593761521,
       "byAccount": {
         "personal": 171,
-        "work": 45925
+        "work": 4547
       }
     },
     "2026-10-09": {
-      "messages": 29861,
-      "sessions": 30,
-      "toolCalls": 10610,
-      "tokens": 4126569,
+      "messages": 6338,
+      "sessions": 29,
+      "toolCalls": 3207,
+      "tokens": 1661665885,
       "byAccount": {
         "personal": 122,
-        "work": 29739
+        "work": 6216
       }
     },
     "2026-10-10": {
-      "messages": 275,
+      "messages": 702,
       "sessions": 3,
-      "toolCalls": 98,
+      "toolCalls": 249,
       "tokens": 43233,
       "byAccount": {
         "personal": 2,
-        "work": 273
+        "work": 700
       }
     }
   }
