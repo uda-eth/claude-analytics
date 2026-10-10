@@ -309,99 +309,172 @@
       }
     },
     "2026-09-22": {
-      "messages": 1372,
-      "sessions": 4,
-      "toolCalls": 416
+      "messages": 3405,
+      "sessions": 8,
+      "toolCalls": 746,
+      "tokensByModel": {
+        "claude-opus-5-5": 104195231,
+        "claude-opus-5": 346887917,
+        "claude-sonnet-5": 8063936
+      }
     },
     "2026-09-23": {
-      "messages": 24524,
-      "sessions": 17,
-      "toolCalls": 9160
+      "messages": 3371,
+      "sessions": 14,
+      "toolCalls": 7565,
+      "tokensByModel": {
+        "claude-opus-5-5": 4260144005,
+        "claude-sonnet-5": 12369184,
+        "claude-opus-5": 8601318
+      }
     },
     "2026-09-24": {
-      "messages": 26744,
-      "sessions": 15,
-      "toolCalls": 10143
+      "messages": 4699,
+      "sessions": 12,
+      "toolCalls": 8262,
+      "tokensByModel": {
+        "claude-opus-5-5": 5070948448,
+        "claude-sonnet-5": 792494,
+        "claude-opus-5": 192921543
+      }
     },
     "2026-09-25": {
-      "messages": 47783,
-      "sessions": 25,
-      "toolCalls": 17739
+      "messages": 4011,
+      "sessions": 4,
+      "toolCalls": 15530,
+      "tokensByModel": {
+        "claude-sonnet-5": 17637166,
+        "claude-opus-5-5": 7010061121
+      }
     },
     "2026-09-26": {
-      "messages": 110,
-      "sessions": 3,
-      "toolCalls": 34
+      "messages": 1384,
+      "sessions": 23,
+      "toolCalls": 4078,
+      "tokensByModel": {
+        "claude-opus-5-5": 1568422802,
+        "claude-sonnet-5": 224734
+      }
     },
     "2026-09-27": {
-      "messages": 4423,
-      "sessions": 45,
-      "toolCalls": 1401
+      "messages": 1029,
+      "sessions": 11,
+      "toolCalls": 151,
+      "tokensByModel": {
+        "claude-opus-5-5": 37774908
+      }
     },
     "2026-09-28": {
-      "messages": 15611,
-      "sessions": 36,
-      "toolCalls": 5200
+      "messages": 13959,
+      "sessions": 68,
+      "toolCalls": 5568,
+      "tokensByModel": {
+        "claude-opus-5-5": 2189157831,
+        "claude-sonnet-5": 4645964
+      }
     },
     "2026-09-29": {
-      "messages": 8963,
-      "sessions": 4,
-      "toolCalls": 3067
+      "messages": 2415,
+      "sessions": 3,
+      "toolCalls": 2428,
+      "tokensByModel": {
+        "claude-opus-5-5": 1390383756
+      }
     },
     "2026-09-30": {
-      "messages": 90303,
-      "sessions": 10,
-      "toolCalls": 32535
+      "messages": 5083,
+      "sessions": 8,
+      "toolCalls": 4387,
+      "tokensByModel": {
+        "claude-opus-5-5": 2612851463
+      }
     },
     "2026-10-01": {
-      "messages": 10110,
-      "sessions": 6,
-      "toolCalls": 3497
+      "messages": 6240,
+      "sessions": 5,
+      "toolCalls": 1557,
+      "tokensByModel": {
+        "claude-opus-5-5": 1364249920
+      }
     },
     "2026-10-02": {
-      "messages": 36463,
-      "sessions": 28,
-      "toolCalls": 13151
+      "messages": 5494,
+      "sessions": 22,
+      "toolCalls": 1396,
+      "tokensByModel": {
+        "claude-opus-5-5": 809966841
+      }
     },
     "2026-10-03": {
-      "messages": 16684,
-      "sessions": 60,
-      "toolCalls": 6120
+      "messages": 5054,
+      "sessions": 46,
+      "toolCalls": 1754,
+      "tokensByModel": {
+        "claude-opus-5-5": 439333411,
+        "claude-haiku-4-5-20251001": 5441883
+      }
     },
     "2026-10-04": {
-      "messages": 14679,
-      "sessions": 31,
-      "toolCalls": 5391
+      "messages": 5137,
+      "sessions": 42,
+      "toolCalls": 1080,
+      "tokensByModel": {
+        "claude-opus-5-5": 184316472
+      }
     },
     "2026-10-05": {
-      "messages": 22746,
-      "sessions": 4009,
-      "toolCalls": 5056
+      "messages": 69622,
+      "sessions": 3014,
+      "toolCalls": 857,
+      "tokensByModel": {
+        "claude-haiku-4-5-20251001": 55585250,
+        "claude-sonnet-5-5": 10172368,
+        "claude-opus-5-5": 534415876
+      }
     },
     "2026-10-06": {
-      "messages": 15867,
-      "sessions": 42,
-      "toolCalls": 5438
+      "messages": 28203,
+      "sessions": 1034,
+      "toolCalls": 2040,
+      "tokensByModel": {
+        "claude-sonnet-5-5": 7533994,
+        "claude-opus-5-5": 1305141430,
+        "claude-haiku-4-5-20251001": 530052
+      }
     },
     "2026-10-07": {
-      "messages": 44054,
-      "sessions": 11,
-      "toolCalls": 16150
+      "messages": 4920,
+      "sessions": 7,
+      "toolCalls": 1795,
+      "tokensByModel": {
+        "claude-opus-5-5": 1362037793,
+        "claude-sonnet-5-5": 16944147
+      }
     },
     "2026-10-08": {
-      "messages": 45925,
-      "sessions": 6,
-      "toolCalls": 16806
+      "messages": 4547,
+      "sessions": 4,
+      "toolCalls": 1398,
+      "tokensByModel": {
+        "claude-opus-5-5": 561158934,
+        "claude-fable-5-1": 19660992,
+        "claude-sonnet-5-5": 8976379
+      }
     },
     "2026-10-09": {
-      "messages": 29739,
-      "sessions": 6,
-      "toolCalls": 10575
+      "messages": 6216,
+      "sessions": 5,
+      "toolCalls": 3172,
+      "tokensByModel": {
+        "claude-opus-5-5": 1503240824,
+        "claude-fable-5-1": 153383114,
+        "claude-sonnet-5-5": 915378
+      }
     },
     "2026-10-10": {
-      "messages": 273,
+      "messages": 700,
       "sessions": 2,
-      "toolCalls": 98
+      "toolCalls": 249
     }
   },
   "models": {
@@ -412,22 +485,22 @@
       "cacheCreationInputTokens": 37856
     },
     "claude-opus-5": {
-      "inputTokens": 106691,
-      "outputTokens": 24565979,
-      "cacheReadInputTokens": 8374943385,
-      "cacheCreationInputTokens": 225346927
+      "inputTokens": 109257,
+      "outputTokens": 25913351,
+      "cacheReadInputTokens": 8908244282,
+      "cacheCreationInputTokens": 239106870
     },
     "claude-sonnet-5": {
-      "inputTokens": 9122,
-      "outputTokens": 2372490,
-      "cacheReadInputTokens": 303163748,
-      "cacheCreationInputTokens": 19210148
+      "inputTokens": 10222,
+      "outputTokens": 2917344,
+      "cacheReadInputTokens": 343955218,
+      "cacheCreationInputTokens": 21606202
     },
     "claude-fable-5-1": {
-      "inputTokens": 481584,
-      "outputTokens": 9029099,
-      "cacheReadInputTokens": 1529823009,
-      "cacheCreationInputTokens": 51891224
+      "inputTokens": 497488,
+      "outputTokens": 10049630,
+      "cacheReadInputTokens": 1696249167,
+      "cacheCreationInputTokens": 57472737
     },
     "claude-fable-5": {
       "inputTokens": 27844,
@@ -436,45 +509,57 @@
       "cacheCreationInputTokens": 17906292
     },
     "claude-haiku-4-5-20251001": {
-      "inputTokens": 116,
-      "outputTokens": 412,
-      "cacheReadInputTokens": 229527,
-      "cacheCreationInputTokens": 159566
+      "inputTokens": 13284,
+      "outputTokens": 2891010,
+      "cacheReadInputTokens": 28451616,
+      "cacheCreationInputTokens": 30590896
+    },
+    "claude-opus-5-5": {
+      "inputTokens": 223269,
+      "outputTokens": 64133973,
+      "cacheReadInputTokens": 31202397216,
+      "cacheCreationInputTokens": 1041046608
+    },
+    "claude-sonnet-5-5": {
+      "inputTokens": 1094,
+      "outputTokens": 269001,
+      "cacheReadInputTokens": 38854893,
+      "cacheCreationInputTokens": 5417278
     }
   },
   "hourCounts": {
-    "0": 21,
-    "1": 21,
-    "2": 23,
+    "0": 39,
+    "1": 35,
+    "2": 35,
     "3": 20,
     "4": 23,
-    "5": 22,
-    "6": 23,
-    "7": 30,
-    "8": 26,
-    "9": 29,
-    "10": 28,
-    "11": 18,
-    "12": 23,
-    "13": 24,
-    "14": 17,
-    "15": 15,
-    "16": 18,
-    "17": 26,
-    "18": 14,
-    "19": 7,
-    "20": 18,
-    "21": 17,
-    "22": 27,
-    "23": 18
+    "5": 29,
+    "6": 25,
+    "7": 33,
+    "8": 31,
+    "9": 69,
+    "10": 32,
+    "11": 47,
+    "12": 36,
+    "13": 40,
+    "14": 147,
+    "15": 390,
+    "16": 280,
+    "17": 713,
+    "18": 836,
+    "19": 816,
+    "20": 824,
+    "21": 235,
+    "22": 51,
+    "23": 52
   },
-  "totalSessions": 508,
-  "totalMessages": 80424,
+  "totalSessions": 4838,
+  "totalMessages": 255213,
   "longestSession": {
-    "duration": 611026583,
-    "messageCount": 1765,
-    "timestamp": "2026-09-04T21:55:21.591Z"
+    "duration": 617662685,
+    "messageCount": 4215,
+    "timestamp": "2026-09-30T18:26:00.153Z"
   },
   "account": "work",
-  "updatedAt": "2026-10-10T04:20:20+00:00"
+  "updatedAt": "2026-10-10T05:20:35+00:00"
 }
