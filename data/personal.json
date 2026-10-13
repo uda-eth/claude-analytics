@@ -695,8 +695,8 @@
       }
     },
     "2026-10-13": {
-      "messages": 2,
-      "sessions": 1,
+      "messages": 6,
+      "sessions": 3,
       "toolCalls": 0,
       "tokensByModel": {
         "claude-opus-5-5": 37273
@@ -793,7 +793,7 @@
     "16": 1675,
     "19": 919,
     "18": 1687,
-    "2": 704,
+    "2": 706,
     "14": 1238,
     "5": 227,
     "1": 375,
@@ -803,7 +803,7 @@
     "13": 1016,
     "11": 1320
   },
-  "totalSessions": 1449,
+  "totalSessions": 1451,
   "totalMessages": 95324,
   "longestSession": {
     "duration": 18480077,
@@ -811,5 +811,5 @@
     "timestamp": "2026-10-01T16:43:48.507Z"
   },
   "account": "personal",
-  "updatedAt": "2026-10-13T06:11:06+00:00"
+  "updatedAt": "2026-10-13T07:07:09+00:00"
 }
