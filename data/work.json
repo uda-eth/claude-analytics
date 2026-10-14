@@ -492,9 +492,9 @@
       "toolCalls": 6475
     },
     "2026-10-14": {
-      "messages": 9350,
+      "messages": 10399,
       "sessions": 4,
-      "toolCalls": 3278
+      "toolCalls": 3646
     }
   },
   "models": {
@@ -581,5 +581,5 @@
     "timestamp": "2026-09-30T18:26:00.153Z"
   },
   "account": "work",
-  "updatedAt": "2026-10-14T17:44:06+00:00"
+  "updatedAt": "2026-10-14T18:44:13+00:00"
 }
