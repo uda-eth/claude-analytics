@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-15T02:45:51+00:00",
+  "generatedAt": "2026-10-15T03:07:10+00:00",
   "currentStreak": 56,
   "longestStreak": 56,
   "activeDays": 111,
-  "messages": 469763,
-  "sessions": 6754,
-  "toolCalls": 161467,
-  "tokens": 50002660442,
+  "messages": 470000,
+  "sessions": 6761,
+  "toolCalls": 161564,
+  "tokens": 50047784088,
   "accounts": {
     "personal": {
       "currentStreak": 26,
       "longestStreak": 26,
       "activeDays": 98,
-      "messages": 128704,
-      "sessions": 1876,
-      "tokens": 5680124686,
-      "updatedAt": "2026-10-15T02:07:23+00:00"
+      "messages": 128941,
+      "sessions": 1883,
+      "tokens": 5725248332,
+      "updatedAt": "2026-10-15T03:07:01+00:00"
     },
     "work": {
       "currentStreak": 56,
@@ -28,7 +28,7 @@
     }
   },
   "models": {
-    "claude-opus-5-5": 34599056997,
+    "claude-opus-5-5": 34643879997,
     "claude-opus-5": 10477075672,
     "claude-opus-4-5-20251101": 3527675337,
     "claude-fable-5-1": 2631095767,
@@ -36,7 +36,7 @@
     "claude-sonnet-4-5-20250929": 751209500,
     "claude-sonnet-5": 377350112,
     "claude-haiku-4-5-20251001": 243822161,
-    "claude-sonnet-5-5": 45671057,
+    "claude-sonnet-5-5": 45971703,
     "claude-opus-4-8": 4940584,
     "claude-sonnet-4-6": 2447872,
     "claude-haiku-5-5": 1046987
@@ -64,8 +64,8 @@
     "19": 1747,
     "20": 2480,
     "21": 1606,
-    "22": 1880,
-    "23": 899
+    "22": 1972,
+    "23": 927
   },
   "days": {
     "2025-12-27": {
@@ -1102,12 +1102,12 @@
       }
     },
     "2026-10-14": {
-      "messages": 14507,
-      "sessions": 95,
-      "toolCalls": 5122,
-      "tokens": 45903510,
+      "messages": 14744,
+      "sessions": 102,
+      "toolCalls": 5219,
+      "tokens": 91027156,
       "byAccount": {
-        "personal": 717,
+        "personal": 954,
         "work": 13790
       }
     }
