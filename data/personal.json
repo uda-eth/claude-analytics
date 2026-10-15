@@ -704,11 +704,11 @@
       }
     },
     "2026-10-14": {
-      "messages": 520,
-      "sessions": 85,
-      "toolCalls": 189,
+      "messages": 717,
+      "sessions": 89,
+      "toolCalls": 283,
       "tokensByModel": {
-        "claude-opus-5-5": 17011199,
+        "claude-opus-5-5": 45750209,
         "claude-sonnet-5-5": 153301
       }
     }
@@ -763,10 +763,10 @@
       "cacheCreationInputTokens": 7379988
     },
     "claude-opus-5-5": {
-      "inputTokens": 20018,
-      "outputTokens": 3662796,
-      "cacheReadInputTokens": 2199365227,
-      "cacheCreationInputTokens": 59468880
+      "inputTokens": 20216,
+      "outputTokens": 3770461,
+      "cacheReadInputTokens": 2227683872,
+      "cacheCreationInputTokens": 59781382
     },
     "claude-sonnet-5": {
       "inputTokens": 542,
@@ -791,7 +791,7 @@
     "8": 117,
     "3": 230,
     "4": 127,
-    "21": 1284,
+    "21": 1371,
     "12": 668,
     "23": 847,
     "17": 2637,
@@ -809,11 +809,11 @@
     "1": 375,
     "0": 577,
     "15": 1605,
-    "22": 1817,
+    "22": 1829,
     "13": 1028,
     "11": 1335
   },
-  "totalSessions": 1594,
+  "totalSessions": 1598,
   "totalMessages": 95324,
   "longestSession": {
     "duration": 18480077,
@@ -821,5 +821,5 @@
     "timestamp": "2026-10-01T16:43:48.507Z"
   },
   "account": "personal",
-  "updatedAt": "2026-10-15T01:07:39+00:00"
+  "updatedAt": "2026-10-15T02:07:23+00:00"
 }
