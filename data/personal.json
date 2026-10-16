@@ -722,11 +722,11 @@
       }
     },
     "2026-10-16": {
-      "messages": 60,
-      "sessions": 15,
-      "toolCalls": 20,
+      "messages": 90,
+      "sessions": 23,
+      "toolCalls": 29,
       "tokensByModel": {
-        "claude-opus-5-5": 1413685
+        "claude-opus-5-5": 2140091
       }
     }
   },
@@ -780,10 +780,10 @@
       "cacheCreationInputTokens": 7379988
     },
     "claude-opus-5-5": {
-      "inputTokens": 20680,
-      "outputTokens": 3885162,
-      "cacheReadInputTokens": 2278169210,
-      "cacheCreationInputTokens": 62539755
+      "inputTokens": 20706,
+      "outputTokens": 3891165,
+      "cacheReadInputTokens": 2278546990,
+      "cacheCreationInputTokens": 62882352
     },
     "claude-sonnet-5": {
       "inputTokens": 542,
@@ -828,9 +828,9 @@
     "15": 1611,
     "22": 1921,
     "13": 1034,
-    "11": 1341
+    "11": 1358
   },
-  "totalSessions": 1757,
+  "totalSessions": 1765,
   "totalMessages": 95324,
   "longestSession": {
     "duration": 18480077,
@@ -838,5 +838,5 @@
     "timestamp": "2026-10-01T16:43:48.507Z"
   },
   "account": "personal",
-  "updatedAt": "2026-10-16T15:07:01+00:00"
+  "updatedAt": "2026-10-16T16:07:02+00:00"
 }
