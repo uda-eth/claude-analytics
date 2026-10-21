@@ -472,44 +472,44 @@
       }
     },
     "2026-10-10": {
-      "messages": 10556,
+      "messages": 8820,
       "sessions": 8,
-      "toolCalls": 3699
+      "toolCalls": 3099
     },
     "2026-10-11": {
-      "messages": 26604,
+      "messages": 27239,
       "sessions": 10,
-      "toolCalls": 9564
+      "toolCalls": 9790
     },
     "2026-10-12": {
-      "messages": 17182,
+      "messages": 17043,
       "sessions": 11,
-      "toolCalls": 6119
+      "toolCalls": 6061
     },
     "2026-10-13": {
-      "messages": 17714,
+      "messages": 18214,
       "sessions": 5,
-      "toolCalls": 6475
+      "toolCalls": 6662
     },
     "2026-10-14": {
-      "messages": 14418,
+      "messages": 19657,
       "sessions": 6,
-      "toolCalls": 5068
+      "toolCalls": 6998
     },
     "2026-10-15": {
-      "messages": 27351,
+      "messages": 21116,
       "sessions": 3,
-      "toolCalls": 9907
+      "toolCalls": 7622
     },
     "2026-10-16": {
-      "messages": 6177,
+      "messages": 6341,
       "sessions": 5,
-      "toolCalls": 2167
+      "toolCalls": 2226
     },
     "2026-10-17": {
-      "messages": 2327,
+      "messages": 2163,
       "sessions": 3,
-      "toolCalls": 827
+      "toolCalls": 768
     },
     "2026-10-18": {
       "messages": 836,
@@ -522,14 +522,14 @@
       "toolCalls": 21
     },
     "2026-10-20": {
-      "messages": 11799,
+      "messages": 19480,
       "sessions": 7,
-      "toolCalls": 4213
+      "toolCalls": 6966
     },
     "2026-10-21": {
-      "messages": 9171,
-      "sessions": 1,
-      "toolCalls": 3290
+      "messages": 2531,
+      "sessions": 5,
+      "toolCalls": 888
     }
   },
   "models": {
@@ -616,5 +616,5 @@
     "timestamp": "2026-09-30T18:26:00.153Z"
   },
   "account": "work",
-  "updatedAt": "2026-10-21T09:28:16+00:00"
+  "updatedAt": "2026-10-21T22:01:53+00:00"
 }
