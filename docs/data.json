@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-24T15:17:56+00:00",
-  "currentStreak": 65,
-  "longestStreak": 65,
-  "activeDays": 120,
-  "messages": 563412,
-  "sessions": 7590,
+  "generatedAt": "2026-10-24T15:58:53+00:00",
+  "currentStreak": 66,
+  "longestStreak": 66,
+  "activeDays": 121,
+  "messages": 563417,
+  "sessions": 7593,
   "toolCalls": 195880,
-  "tokens": 50228045128,
+  "tokens": 50228133716,
   "accounts": {
     "personal": {
-      "currentStreak": 35,
-      "longestStreak": 35,
-      "activeDays": 107,
-      "messages": 134546,
-      "sessions": 2673,
-      "tokens": 5905509372,
-      "updatedAt": "2026-10-24T15:17:47+00:00"
+      "currentStreak": 36,
+      "longestStreak": 36,
+      "activeDays": 108,
+      "messages": 134551,
+      "sessions": 2676,
+      "tokens": 5905597960,
+      "updatedAt": "2026-10-24T15:58:44+00:00"
     },
     "work": {
       "currentStreak": 65,
@@ -42,7 +42,7 @@
     "claude-haiku-5-5": 1046987
   },
   "hourCounts": {
-    "0": 715,
+    "0": 706,
     "1": 462,
     "2": 824,
     "3": 376,
@@ -50,7 +50,7 @@
     "5": 372,
     "6": 277,
     "7": 287,
-    "8": 237,
+    "8": 240,
     "9": 804,
     "10": 1099,
     "11": 1475,
@@ -1199,6 +1199,15 @@
       "byAccount": {
         "personal": 51,
         "work": 223
+      }
+    },
+    "2026-10-24": {
+      "messages": 5,
+      "sessions": 3,
+      "toolCalls": 0,
+      "tokens": 88588,
+      "byAccount": {
+        "personal": 5
       }
     }
   }
