@@ -472,44 +472,44 @@
       }
     },
     "2026-10-10": {
-      "messages": 8820,
+      "messages": 10053,
       "sessions": 8,
-      "toolCalls": 3099
+      "toolCalls": 3521
     },
     "2026-10-11": {
-      "messages": 27239,
+      "messages": 26847,
       "sessions": 10,
-      "toolCalls": 9790
+      "toolCalls": 9651
     },
     "2026-10-12": {
-      "messages": 17043,
+      "messages": 17193,
       "sessions": 11,
-      "toolCalls": 6061
+      "toolCalls": 6119
     },
     "2026-10-13": {
-      "messages": 18214,
+      "messages": 17998,
       "sessions": 5,
-      "toolCalls": 6662
+      "toolCalls": 6584
     },
     "2026-10-14": {
-      "messages": 19657,
+      "messages": 15027,
       "sessions": 6,
-      "toolCalls": 6998
+      "toolCalls": 5296
     },
     "2026-10-15": {
-      "messages": 21116,
+      "messages": 26204,
       "sessions": 3,
-      "toolCalls": 7622
+      "toolCalls": 9483
     },
     "2026-10-16": {
-      "messages": 6341,
+      "messages": 6234,
       "sessions": 5,
-      "toolCalls": 2226
+      "toolCalls": 2187
     },
     "2026-10-17": {
-      "messages": 2163,
+      "messages": 2270,
       "sessions": 3,
-      "toolCalls": 768
+      "toolCalls": 807
     },
     "2026-10-18": {
       "messages": 836,
@@ -522,34 +522,39 @@
       "toolCalls": 21
     },
     "2026-10-20": {
-      "messages": 19480,
+      "messages": 12482,
       "sessions": 7,
-      "toolCalls": 6966
+      "toolCalls": 4449
     },
     "2026-10-21": {
-      "messages": 20979,
+      "messages": 27638,
       "sessions": 9,
-      "toolCalls": 7353
+      "toolCalls": 9752
     },
     "2026-10-22": {
-      "messages": 11478,
+      "messages": 11763,
       "sessions": 6,
-      "toolCalls": 4122
+      "toolCalls": 4224
     },
     "2026-10-23": {
-      "messages": 223,
-      "sessions": 3,
-      "toolCalls": 66
+      "messages": 277,
+      "sessions": 4,
+      "toolCalls": 82
     },
     "2026-10-24": {
-      "messages": 1026,
-      "sessions": 3,
-      "toolCalls": 369
+      "messages": 47,
+      "sessions": 1,
+      "toolCalls": 18
     },
     "2026-10-25": {
-      "messages": 796,
-      "sessions": 3,
-      "toolCalls": 270
+      "messages": 1775,
+      "sessions": 4,
+      "toolCalls": 621
+    },
+    "2026-10-26": {
+      "messages": 160,
+      "sessions": 2,
+      "toolCalls": 50
     }
   },
   "models": {
@@ -636,5 +641,5 @@
     "timestamp": "2026-09-30T18:26:00.153Z"
   },
   "account": "work",
-  "updatedAt": "2026-10-26T15:15:00+00:00"
+  "updatedAt": "2026-10-27T00:22:01+00:00"
 }
