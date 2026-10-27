@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-27T00:22:10+00:00",
+  "generatedAt": "2026-10-27T01:11:44+00:00",
   "currentStreak": 68,
   "longestStreak": 68,
   "activeDays": 123,
-  "messages": 567218,
-  "sessions": 7732,
-  "toolCalls": 197201,
-  "tokens": 50241687086,
+  "messages": 567233,
+  "sessions": 7736,
+  "toolCalls": 197205,
+  "tokens": 50242034481,
   "accounts": {
     "personal": {
       "currentStreak": 38,
       "longestStreak": 38,
       "activeDays": 110,
-      "messages": 135137,
-      "sessions": 2807,
-      "tokens": 5919151330,
-      "updatedAt": "2026-10-27T00:07:05+00:00"
+      "messages": 135152,
+      "sessions": 2811,
+      "tokens": 5919498725,
+      "updatedAt": "2026-10-27T01:11:34+00:00"
     },
     "work": {
       "currentStreak": 68,
@@ -61,8 +61,8 @@
     "16": 797,
     "17": 1492,
     "18": 1650,
-    "19": 1559,
-    "20": 1582,
+    "19": 1565,
+    "20": 1584,
     "21": 1093,
     "22": 958,
     "23": 670
@@ -1222,12 +1222,12 @@
       }
     },
     "2026-10-26": {
-      "messages": 210,
-      "sessions": 12,
-      "toolCalls": 70,
-      "tokens": 1048012,
+      "messages": 225,
+      "sessions": 16,
+      "toolCalls": 74,
+      "tokens": 1395407,
       "byAccount": {
-        "personal": 50,
+        "personal": 65,
         "work": 160
       }
     }
