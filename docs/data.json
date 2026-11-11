@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-11T13:49:59+00:00",
-  "currentStreak": 83,
-  "longestStreak": 83,
-  "activeDays": 138,
-  "messages": 711950,
-  "sessions": 7917,
-  "toolCalls": 247315,
+  "generatedAt": "2026-11-11T14:50:17+00:00",
+  "currentStreak": 84,
+  "longestStreak": 84,
+  "activeDays": 139,
+  "messages": 704283,
+  "sessions": 7914,
+  "toolCalls": 244652,
   "tokens": 50242684105,
   "accounts": {
     "personal": {
@@ -18,13 +18,13 @@
       "updatedAt": "2026-10-27T11:17:20+00:00"
     },
     "work": {
-      "currentStreak": 83,
-      "longestStreak": 83,
-      "activeDays": 84,
-      "messages": 576762,
-      "sessions": 5098,
+      "currentStreak": 84,
+      "longestStreak": 84,
+      "activeDays": 85,
+      "messages": 569095,
+      "sessions": 5095,
       "tokens": 44322535756,
-      "updatedAt": "2026-11-11T13:49:51+00:00"
+      "updatedAt": "2026-11-11T14:50:03+00:00"
     }
   },
   "models": {
@@ -1062,33 +1062,33 @@
       }
     },
     "2026-10-10": {
-      "messages": 10258,
-      "sessions": 72,
-      "toolCalls": 3572,
+      "messages": 5764,
+      "sessions": 71,
+      "toolCalls": 2067,
       "tokens": 3760501,
       "byAccount": {
         "personal": 182,
-        "work": 10076
+        "work": 5582
       }
     },
     "2026-10-11": {
-      "messages": 26751,
-      "sessions": 79,
-      "toolCalls": 9568,
+      "messages": 22812,
+      "sessions": 72,
+      "toolCalls": 8156,
       "tokens": 3273914,
       "byAccount": {
         "personal": 149,
-        "work": 26602
+        "work": 22663
       }
     },
     "2026-10-12": {
-      "messages": 17515,
-      "sessions": 58,
-      "toolCalls": 6264,
+      "messages": 17488,
+      "sessions": 55,
+      "toolCalls": 6257,
       "tokens": 9728573,
       "byAccount": {
         "personal": 333,
-        "work": 17182
+        "work": 17155
       }
     },
     "2026-10-13": {
@@ -1365,6 +1365,15 @@
       "tokens": 0,
       "byAccount": {
         "work": 1745
+      }
+    },
+    "2026-11-11": {
+      "messages": 793,
+      "sessions": 8,
+      "toolCalls": 261,
+      "tokens": 0,
+      "byAccount": {
+        "work": 793
       }
     }
   }
