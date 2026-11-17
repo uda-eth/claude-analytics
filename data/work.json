@@ -487,29 +487,29 @@
       "toolCalls": 5210
     },
     "2026-10-13": {
-      "messages": 17659,
-      "sessions": 4,
-      "toolCalls": 6454
+      "messages": 16227,
+      "sessions": 3,
+      "toolCalls": 5916
     },
     "2026-10-14": {
-      "messages": 14046,
-      "sessions": 4,
-      "toolCalls": 4943
+      "messages": 13109,
+      "sessions": 3,
+      "toolCalls": 4627
     },
     "2026-10-15": {
-      "messages": 27351,
-      "sessions": 3,
-      "toolCalls": 9907
+      "messages": 26946,
+      "sessions": 2,
+      "toolCalls": 9773
     },
     "2026-10-16": {
-      "messages": 5936,
-      "sessions": 3,
-      "toolCalls": 2095
+      "messages": 5133,
+      "sessions": 2,
+      "toolCalls": 1845
     },
     "2026-10-17": {
-      "messages": 2327,
-      "sessions": 3,
-      "toolCalls": 827
+      "messages": 2221,
+      "sessions": 2,
+      "toolCalls": 793
     },
     "2026-10-18": {
       "messages": 836,
@@ -657,9 +657,9 @@
       "toolCalls": 1148
     },
     "2026-11-16": {
-      "messages": 3679,
-      "sessions": 11,
-      "toolCalls": 1341
+      "messages": 5115,
+      "sessions": 20,
+      "toolCalls": 1908
     }
   },
   "models": {
@@ -746,5 +746,5 @@
     "timestamp": "2026-09-30T18:26:00.153Z"
   },
   "account": "work",
-  "updatedAt": "2026-11-17T00:09:48+00:00"
+  "updatedAt": "2026-11-17T01:10:03+00:00"
 }
