@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T18:28:14+00:00",
-  "currentStreak": 98,
+  "generatedAt": "2026-11-27T18:15:07+00:00",
+  "currentStreak": 0,
   "longestStreak": 98,
   "activeDays": 153,
   "messages": 740108,
@@ -18,7 +18,7 @@
       "updatedAt": "2026-10-27T11:17:20+00:00"
     },
     "work": {
-      "currentStreak": 98,
+      "currentStreak": 0,
       "longestStreak": 98,
       "activeDays": 99,
       "messages": 604920,
